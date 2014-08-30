@@ -30,6 +30,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="MongoDB.Bson">
       <HintPath>..\packages\mongocsharpdriver.1.9.2\lib\net35\MongoDB.Bson.dll</HintPath>
     </Reference>
@@ -37,6 +43,7 @@
       <HintPath>..\packages\mongocsharpdriver.1.9.2\lib\net35\MongoDB.Driver.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -54,7 +61,9 @@
     <Compile Include="Entities\MongoManufacturer.cs" />
     <Compile Include="Entities\MongoProduct.cs" />
     <Compile Include="MongoDbProvider.cs" />
+    <Compile Include="MongoMigrator.cs" />
     <Compile Include="MongoParser.cs" />
+    <Compile Include="StartData\MongoStartData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -66,6 +75,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ElectronicStoresSystem.Data\ElectronicStoresSystem.Data.csproj">
+      <Project>{cb7bf651-6dbb-4280-a989-435f784056fe}</Project>
+      <Name>ElectronicStoresSystem.Data</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ElectronicStoresSystem.Models\ElectronicStoresSystem.Models.csproj">
       <Project>{089c59d0-265f-4c5d-900c-0ac369f9c565}</Project>
       <Name>ElectronicStoresSystem.Models</Name>

@@ -8,3 +8,11 @@ C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\MongoDb.Data\bin\Debug\
 C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\MongoDb.Data\obj\Debug\MongoDb.Data.csprojResolveAssemblyReference.cache
 C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\MongoDb.Data\obj\Debug\MongoDb.Data.dll
 C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\MongoDb.Data\obj\Debug\MongoDb.Data.pdb
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\MongoDb.Data\bin\Debug\ElectronicStoresSystem.Models.dll
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\MongoDb.Data\bin\Debug\ElectronicStoresSystem.Models.pdb
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\MongoDb.Data\bin\Debug\ElectronicStoresSystem.Data.dll
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\MongoDb.Data\bin\Debug\EntityFramework.dll
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\MongoDb.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\MongoDb.Data\bin\Debug\ElectronicStoresSystem.Data.pdb
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\MongoDb.Data\bin\Debug\EntityFramework.xml
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\MongoDb.Data\bin\Debug\EntityFramework.SqlServer.xml

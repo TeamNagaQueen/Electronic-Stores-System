@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30324.0
+VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectronicStoresSystem.Models", "ElectronicStoresSystem.Models\ElectronicStoresSystem.Models.csproj", "{089C59D0-265F-4C5D-900C-0AC369F9C565}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectronicStoresSystem.ConsoleClient", "ElectronicStoresSystem.ConsoleClient\ElectronicStoresSystem.ConsoleClient.csproj", "{664A3D7D-904F-44F6-8046-8C2BFA413B01}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XlsModule", "XlsModule\XlsModule.csproj", "{2EBE385D-A6B3-43D1-AA40-B204E3B06ABC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDb.Data", "MongoDb.Data\MongoDb.Data.csproj", "{98D9524F-3E13-4E5B-BD44-8955F1930900}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{2EBE385D-A6B3-43D1-AA40-B204E3B06ABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EBE385D-A6B3-43D1-AA40-B204E3B06ABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EBE385D-A6B3-43D1-AA40-B204E3B06ABC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98D9524F-3E13-4E5B-BD44-8955F1930900}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98D9524F-3E13-4E5B-BD44-8955F1930900}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98D9524F-3E13-4E5B-BD44-8955F1930900}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98D9524F-3E13-4E5B-BD44-8955F1930900}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

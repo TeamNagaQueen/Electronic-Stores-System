@@ -7,3 +7,12 @@ C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electro
 C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electronic Stores Database\XlsModule\obj\Debug\XlsModule.pdb
 C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electronic Stores Database\XlsModule\bin\Debug\ElectronicStoresSystem.Models.dll
 C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electronic Stores Database\XlsModule\bin\Debug\ElectronicStoresSystem.Models.pdb
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\XlsModule\bin\Debug\XlsModule.dll
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\XlsModule\bin\Debug\XlsModule.pdb
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\XlsModule\bin\Debug\ElectronicStoresSystem.Models.dll
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\XlsModule\bin\Debug\Ionic.Zip.dll
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\XlsModule\bin\Debug\ElectronicStoresSystem.Models.pdb
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\XlsModule\bin\Debug\Ionic.Zip.xml
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\XlsModule\obj\Debug\XlsModule.csprojResolveAssemblyReference.cache
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\XlsModule\obj\Debug\XlsModule.dll
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\XlsModule\obj\Debug\XlsModule.pdb

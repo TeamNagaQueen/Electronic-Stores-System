@@ -15,7 +15,7 @@
 
         [Required]
         [MinLength(3)]
-        [MaxLength(20)]
+        [MaxLength(100)]
         public string ProductName { get; set; }
 
         [ForeignKey("Manufacturer")]
