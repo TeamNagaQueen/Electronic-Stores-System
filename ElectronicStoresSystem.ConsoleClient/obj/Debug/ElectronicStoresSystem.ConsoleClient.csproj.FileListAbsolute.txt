@@ -15,3 +15,14 @@ c:\users\stoyan\documents\visual studio 2013\Projects\Electronic Stores Database
 C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electronic Stores Database\ElectronicStoresSystem.ConsoleClient\bin\Debug\ElectronicStoresSystem.ConsoleClient.exe.config
 C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electronic Stores Database\ElectronicStoresSystem.ConsoleClient\obj\Debug\ElectronicStoresSystem.ConsoleClient.exe
 C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electronic Stores Database\ElectronicStoresSystem.ConsoleClient\obj\Debug\ElectronicStoresSystem.ConsoleClient.pdb
+C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electronic Stores Database\ElectronicStoresSystem.ConsoleClient\bin\Debug\ElectronicStoresSystem.ConsoleClient.exe
+C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electronic Stores Database\ElectronicStoresSystem.ConsoleClient\bin\Debug\ElectronicStoresSystem.ConsoleClient.pdb
+C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electronic Stores Database\ElectronicStoresSystem.ConsoleClient\bin\Debug\ElectronicStoresSystem.Data.dll
+C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electronic Stores Database\ElectronicStoresSystem.ConsoleClient\bin\Debug\ElectronicStoresSystem.Models.dll
+C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electronic Stores Database\ElectronicStoresSystem.ConsoleClient\bin\Debug\EntityFramework.dll
+C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electronic Stores Database\ElectronicStoresSystem.ConsoleClient\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electronic Stores Database\ElectronicStoresSystem.ConsoleClient\bin\Debug\ElectronicStoresSystem.Data.pdb
+C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electronic Stores Database\ElectronicStoresSystem.ConsoleClient\bin\Debug\ElectronicStoresSystem.Models.pdb
+C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electronic Stores Database\ElectronicStoresSystem.ConsoleClient\bin\Debug\EntityFramework.xml
+C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electronic Stores Database\ElectronicStoresSystem.ConsoleClient\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electronic Stores Database\ElectronicStoresSystem.ConsoleClient\obj\Debug\ElectronicStoresSystem.ConsoleClient.csprojResolveAssemblyReference.cache

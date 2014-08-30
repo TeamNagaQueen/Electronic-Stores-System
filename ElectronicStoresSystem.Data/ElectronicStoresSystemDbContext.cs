@@ -1,8 +1,8 @@
 ﻿namespace ElectronicStoresSystem.Data
 {
-    //using StudentSystem.Data.Migrations;
     using System.Data.Entity;
-    
+    using System.Data.SqlClient;
+    using ElectronicStoresSystem.Data.Migrations;
     using ElectronicStoresSystem.Models;
 
     public class ElectronicStoresSystemDbContext: DbContext
@@ -10,7 +10,7 @@
         public ElectronicStoresSystemDbContext()
             : base("ElectronicSystemConection")
         {
-            //Database.SetInitializer(new MigrateDatabaseToLatestVersion<ElectronicStoresSystemDbContext, Configuration>());
+            Database.SetInitializer(new MigrateDatabaseToLatestVersion<ElectronicStoresSystemDbContext, Configuration>());
         }
 
         public IDbSet<Category> Categories { get; set; }
