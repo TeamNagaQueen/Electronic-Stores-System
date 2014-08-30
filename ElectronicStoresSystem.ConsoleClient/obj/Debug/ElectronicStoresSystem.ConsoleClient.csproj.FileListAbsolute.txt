@@ -30,3 +30,6 @@ C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electro
 C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electronic Stores Database\ElectronicStoresSystem.ConsoleClient\bin\Debug\Ionic.Zip.dll
 C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electronic Stores Database\ElectronicStoresSystem.ConsoleClient\bin\Debug\XlsModule.pdb
 C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electronic Stores Database\ElectronicStoresSystem.ConsoleClient\bin\Debug\Ionic.Zip.xml
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\ElectronicStoresSystem.ConsoleClient\bin\Debug\ElectronicStoresSystem.ConsoleClient.exe.config
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\ElectronicStoresSystem.ConsoleClient\obj\Debug\ElectronicStoresSystem.ConsoleClient.exe
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\ElectronicStoresSystem.ConsoleClient\obj\Debug\ElectronicStoresSystem.ConsoleClient.pdb

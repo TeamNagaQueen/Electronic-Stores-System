@@ -1,0 +1,10 @@
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\MongoDb.Data\bin\Debug\MongoDb.Data.dll.config
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\MongoDb.Data\bin\Debug\MongoDb.Data.dll
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\MongoDb.Data\bin\Debug\MongoDb.Data.pdb
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\MongoDb.Data\bin\Debug\MongoDB.Bson.dll
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\MongoDb.Data\bin\Debug\MongoDB.Driver.dll
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\MongoDb.Data\bin\Debug\MongoDB.Bson.xml
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\MongoDb.Data\bin\Debug\MongoDB.Driver.xml
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\MongoDb.Data\obj\Debug\MongoDb.Data.csprojResolveAssemblyReference.cache
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\MongoDb.Data\obj\Debug\MongoDb.Data.dll
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\MongoDb.Data\obj\Debug\MongoDb.Data.pdb
