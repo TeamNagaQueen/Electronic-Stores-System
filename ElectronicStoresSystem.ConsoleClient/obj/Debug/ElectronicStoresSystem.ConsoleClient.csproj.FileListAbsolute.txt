@@ -26,3 +26,7 @@ C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electro
 C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electronic Stores Database\ElectronicStoresSystem.ConsoleClient\bin\Debug\EntityFramework.xml
 C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electronic Stores Database\ElectronicStoresSystem.ConsoleClient\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electronic Stores Database\ElectronicStoresSystem.ConsoleClient\obj\Debug\ElectronicStoresSystem.ConsoleClient.csprojResolveAssemblyReference.cache
+C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electronic Stores Database\ElectronicStoresSystem.ConsoleClient\bin\Debug\XlsModule.dll
+C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electronic Stores Database\ElectronicStoresSystem.ConsoleClient\bin\Debug\Ionic.Zip.dll
+C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electronic Stores Database\ElectronicStoresSystem.ConsoleClient\bin\Debug\XlsModule.pdb
+C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electronic Stores Database\ElectronicStoresSystem.ConsoleClient\bin\Debug\Ionic.Zip.xml

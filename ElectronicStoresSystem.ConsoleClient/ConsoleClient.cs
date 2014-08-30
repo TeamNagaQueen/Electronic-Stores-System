@@ -4,18 +4,20 @@
     using System.Collections.Generic;
     using ElectronicStoresSystem.Data;
     using ElectronicStoresSystem.Models;
+    using XlsModule;
 
     class ConsoleClient
     {
         static void Main()
         {
             ElectronicStoresSystemDbContext dbContext = new ElectronicStoresSystemDbContext();
-
-            using (dbContext)
-            {
-                dbContext.Categories.Add(new Category { CategoryName = "Smartphone" });
-                dbContext.SaveChanges();
-            }
+            XlsReader.ExtractZipReports();
+            
+            //using (dbContext)
+            //{
+            //    dbContext.Categories.Add(new Category { CategoryName = "Smartphone" });
+            //    dbContext.SaveChanges();
+            //}
         }
     }
 }

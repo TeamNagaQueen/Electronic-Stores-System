@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectronicStoresSystem.Data
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectronicStoresSystem.ConsoleClient", "ElectronicStoresSystem.ConsoleClient\ElectronicStoresSystem.ConsoleClient.csproj", "{664A3D7D-904F-44F6-8046-8C2BFA413B01}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XlsModule", "XlsModule\XlsModule.csproj", "{2EBE385D-A6B3-43D1-AA40-B204E3B06ABC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{664A3D7D-904F-44F6-8046-8C2BFA413B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{664A3D7D-904F-44F6-8046-8C2BFA413B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{664A3D7D-904F-44F6-8046-8C2BFA413B01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EBE385D-A6B3-43D1-AA40-B204E3B06ABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EBE385D-A6B3-43D1-AA40-B204E3B06ABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EBE385D-A6B3-43D1-AA40-B204E3B06ABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EBE385D-A6B3-43D1-AA40-B204E3B06ABC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

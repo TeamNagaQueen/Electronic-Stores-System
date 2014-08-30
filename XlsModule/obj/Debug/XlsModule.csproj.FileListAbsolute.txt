@@ -1,0 +1,7 @@
+C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electronic Stores Database\XlsModule\bin\Debug\XlsModule.dll
+C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electronic Stores Database\XlsModule\bin\Debug\XlsModule.pdb
+C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electronic Stores Database\XlsModule\bin\Debug\Ionic.Zip.dll
+C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electronic Stores Database\XlsModule\bin\Debug\Ionic.Zip.xml
+C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electronic Stores Database\XlsModule\obj\Debug\XlsModule.csprojResolveAssemblyReference.cache
+C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electronic Stores Database\XlsModule\obj\Debug\XlsModule.dll
+C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electronic Stores Database\XlsModule\obj\Debug\XlsModule.pdb
