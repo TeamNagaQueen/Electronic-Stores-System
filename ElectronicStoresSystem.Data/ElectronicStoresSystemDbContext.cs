@@ -8,7 +8,7 @@
     public class ElectronicStoresSystemDbContext: DbContext
     {
         public ElectronicStoresSystemDbContext()
-            : base("ElectronicSystemConection")
+            : base("ElectronicSystemConnection")
         {
             Database.SetInitializer(new MigrateDatabaseToLatestVersion<ElectronicStoresSystemDbContext, Configuration>());
         }
