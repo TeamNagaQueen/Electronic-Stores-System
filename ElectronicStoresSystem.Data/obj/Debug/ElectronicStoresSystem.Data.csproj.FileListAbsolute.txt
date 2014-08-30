@@ -22,3 +22,15 @@ C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electro
 C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electronic Stores Database\ElectronicStoresSystem.Data\obj\Debug\ElectronicStoresSystem.Data.csprojResolveAssemblyReference.cache
 C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electronic Stores Database\ElectronicStoresSystem.Data\obj\Debug\ElectronicStoresSystem.Data.dll
 C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electronic Stores Database\ElectronicStoresSystem.Data\obj\Debug\ElectronicStoresSystem.Data.pdb
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\ElectronicStoresSystem.Data\bin\Debug\ElectronicStoresSystem.Data.dll.config
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\ElectronicStoresSystem.Data\bin\Debug\ElectronicStoresSystem.Data.dll
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\ElectronicStoresSystem.Data\bin\Debug\ElectronicStoresSystem.Data.pdb
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\ElectronicStoresSystem.Data\bin\Debug\ElectronicStoresSystem.Models.dll
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\ElectronicStoresSystem.Data\bin\Debug\EntityFramework.dll
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\ElectronicStoresSystem.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\ElectronicStoresSystem.Data\bin\Debug\ElectronicStoresSystem.Models.pdb
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\ElectronicStoresSystem.Data\bin\Debug\EntityFramework.xml
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\ElectronicStoresSystem.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\ElectronicStoresSystem.Data\obj\Debug\ElectronicStoresSystem.Data.csprojResolveAssemblyReference.cache
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\ElectronicStoresSystem.Data\obj\Debug\ElectronicStoresSystem.Data.dll
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\ElectronicStoresSystem.Data\obj\Debug\ElectronicStoresSystem.Data.pdb

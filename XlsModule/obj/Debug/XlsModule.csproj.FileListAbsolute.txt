@@ -5,3 +5,5 @@ C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electro
 C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electronic Stores Database\XlsModule\obj\Debug\XlsModule.csprojResolveAssemblyReference.cache
 C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electronic Stores Database\XlsModule\obj\Debug\XlsModule.dll
 C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electronic Stores Database\XlsModule\obj\Debug\XlsModule.pdb
+C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electronic Stores Database\XlsModule\bin\Debug\ElectronicStoresSystem.Models.dll
+C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electronic Stores Database\XlsModule\bin\Debug\ElectronicStoresSystem.Models.pdb
