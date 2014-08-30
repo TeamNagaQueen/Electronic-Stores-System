@@ -1,0 +1,12 @@
+c:\users\stoyan\documents\visual studio 2013\Projects\Electronic Stores Database\ElectronicStoresSystem.Data\obj\Debug\ElectronicStoresSystem.Data.csprojResolveAssemblyReference.cache
+c:\users\stoyan\documents\visual studio 2013\Projects\Electronic Stores Database\ElectronicStoresSystem.Data\bin\Debug\ElectronicStoresSystem.Data.dll.config
+c:\users\stoyan\documents\visual studio 2013\Projects\Electronic Stores Database\ElectronicStoresSystem.Data\bin\Debug\ElectronicStoresSystem.Data.dll
+c:\users\stoyan\documents\visual studio 2013\Projects\Electronic Stores Database\ElectronicStoresSystem.Data\bin\Debug\ElectronicStoresSystem.Data.pdb
+c:\users\stoyan\documents\visual studio 2013\Projects\Electronic Stores Database\ElectronicStoresSystem.Data\bin\Debug\ElectronicStoresSystem.Models.dll
+c:\users\stoyan\documents\visual studio 2013\Projects\Electronic Stores Database\ElectronicStoresSystem.Data\bin\Debug\EntityFramework.dll
+c:\users\stoyan\documents\visual studio 2013\Projects\Electronic Stores Database\ElectronicStoresSystem.Data\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\stoyan\documents\visual studio 2013\Projects\Electronic Stores Database\ElectronicStoresSystem.Data\bin\Debug\ElectronicStoresSystem.Models.pdb
+c:\users\stoyan\documents\visual studio 2013\Projects\Electronic Stores Database\ElectronicStoresSystem.Data\bin\Debug\EntityFramework.xml
+c:\users\stoyan\documents\visual studio 2013\Projects\Electronic Stores Database\ElectronicStoresSystem.Data\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\stoyan\documents\visual studio 2013\Projects\Electronic Stores Database\ElectronicStoresSystem.Data\obj\Debug\ElectronicStoresSystem.Data.dll
+c:\users\stoyan\documents\visual studio 2013\Projects\Electronic Stores Database\ElectronicStoresSystem.Data\obj\Debug\ElectronicStoresSystem.Data.pdb
