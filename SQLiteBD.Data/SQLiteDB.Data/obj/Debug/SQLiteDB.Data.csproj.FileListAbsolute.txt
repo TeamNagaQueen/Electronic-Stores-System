@@ -1,0 +1,8 @@
+D:\#Telerik#\# Visual Studio Projects #\SQLiteBD.Data\SQLiteDB.Data\bin\Debug\SQLiteDB.Data.exe.config
+D:\#Telerik#\# Visual Studio Projects #\SQLiteBD.Data\SQLiteDB.Data\obj\Debug\SQLiteDB.Data.csprojResolveAssemblyReference.cache
+D:\#Telerik#\# Visual Studio Projects #\SQLiteBD.Data\SQLiteDB.Data\bin\Debug\SQLiteDB.Data.exe
+D:\#Telerik#\# Visual Studio Projects #\SQLiteBD.Data\SQLiteDB.Data\bin\Debug\SQLiteDB.Data.pdb
+D:\#Telerik#\# Visual Studio Projects #\SQLiteBD.Data\SQLiteDB.Data\bin\Debug\EntityFramework.dll
+D:\#Telerik#\# Visual Studio Projects #\SQLiteBD.Data\SQLiteDB.Data\bin\Debug\EntityFramework.xml
+D:\#Telerik#\# Visual Studio Projects #\SQLiteBD.Data\SQLiteDB.Data\obj\Debug\SQLiteDB.Data.exe
+D:\#Telerik#\# Visual Studio Projects #\SQLiteBD.Data\SQLiteDB.Data\obj\Debug\SQLiteDB.Data.pdb
