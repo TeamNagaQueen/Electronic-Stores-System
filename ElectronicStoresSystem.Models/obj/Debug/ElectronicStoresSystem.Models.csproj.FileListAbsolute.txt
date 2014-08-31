@@ -37,3 +37,13 @@ C:\Users\Stoyan\Desktop\Electronic-Stores-System\ElectronicStoresSystem.Models\b
 C:\Users\Stoyan\Desktop\Electronic-Stores-System\ElectronicStoresSystem.Models\obj\Debug\ElectronicStoresSystem.Models.csprojResolveAssemblyReference.cache
 C:\Users\Stoyan\Desktop\Electronic-Stores-System\ElectronicStoresSystem.Models\obj\Debug\ElectronicStoresSystem.Models.dll
 C:\Users\Stoyan\Desktop\Electronic-Stores-System\ElectronicStoresSystem.Models\obj\Debug\ElectronicStoresSystem.Models.pdb
+D:\#Telerik#\## GitHub Directory ##\Databases_Teamwork\ElectronicStoresSystem.Models\bin\Debug\ElectronicStoresSystem.Models.dll.config
+D:\#Telerik#\## GitHub Directory ##\Databases_Teamwork\ElectronicStoresSystem.Models\bin\Debug\ElectronicStoresSystem.Models.dll
+D:\#Telerik#\## GitHub Directory ##\Databases_Teamwork\ElectronicStoresSystem.Models\bin\Debug\ElectronicStoresSystem.Models.pdb
+D:\#Telerik#\## GitHub Directory ##\Databases_Teamwork\ElectronicStoresSystem.Models\bin\Debug\EntityFramework.dll
+D:\#Telerik#\## GitHub Directory ##\Databases_Teamwork\ElectronicStoresSystem.Models\bin\Debug\EntityFramework.SqlServer.dll
+D:\#Telerik#\## GitHub Directory ##\Databases_Teamwork\ElectronicStoresSystem.Models\bin\Debug\EntityFramework.xml
+D:\#Telerik#\## GitHub Directory ##\Databases_Teamwork\ElectronicStoresSystem.Models\bin\Debug\EntityFramework.SqlServer.xml
+D:\#Telerik#\## GitHub Directory ##\Databases_Teamwork\ElectronicStoresSystem.Models\obj\Debug\ElectronicStoresSystem.Models.csprojResolveAssemblyReference.cache
+D:\#Telerik#\## GitHub Directory ##\Databases_Teamwork\ElectronicStoresSystem.Models\obj\Debug\ElectronicStoresSystem.Models.dll
+D:\#Telerik#\## GitHub Directory ##\Databases_Teamwork\ElectronicStoresSystem.Models\obj\Debug\ElectronicStoresSystem.Models.pdb

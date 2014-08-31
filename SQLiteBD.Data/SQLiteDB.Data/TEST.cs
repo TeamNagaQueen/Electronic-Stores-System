@@ -14,11 +14,6 @@ namespace SQLiteDB.Data
 
             using (db)
             {
-                var allASD =
-                    from a in db.Products
-                    select a;
-
-                Console.WriteLine(allASD.Count());
             }
         }
     }
