@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ce4cefd2b79d4b2cbf5ce0b7ea2ecccb" Name="Diagram1">
+        <EntityTypeShape EntityType="SQLiteDBModel.Category" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SQLiteDBModel.Expens" Width="1.5" PointX="3" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SQLiteDBModel.Manufacturer" Width="1.5" PointX="0.75" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SQLiteDBModel.Product" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SQLiteDBModel.Sale" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SQLiteDBModel.Store" Width="1.5" PointX="5.25" PointY="4.125" IsExpanded="true" />
+        <AssociationConnector Association="SQLiteDBModel.FK_Products_0_0" ManuallyRouted="false" />
+        <AssociationConnector Association="SQLiteDBModel.FK_Expenses_0_0" ManuallyRouted="false" />
+        <AssociationConnector Association="SQLiteDBModel.FK_Products_1_0" ManuallyRouted="false" />
+        <AssociationConnector Association="SQLiteDBModel.FK_Sales_0_0" ManuallyRouted="false" />
+        <AssociationConnector Association="SQLiteDBModel.FK_Sales_1_0" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
