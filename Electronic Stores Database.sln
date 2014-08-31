@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlModule", "XmlModule.cs\X
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLiteDB.ConsoleClient", "SQLiteDB.ConsoleClient\SQLiteDB.ConsoleClient.csproj", "{5AEE0688-3F96-45D8-8AFB-0028279AC442}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLiteDB.Data", "SQLiteBD.Data\SQLiteDB.Data\SQLiteDB.Data.csproj", "{9FAE496C-AD22-4DB4-83D2-2B5A03D08D97}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLiteDB.Data", "SQLiteDB.Data\SQLiteDB.Data.csproj", "{8F0F1AE3-6E64-4CA1-9D6B-E129605BCF09}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,10 +51,10 @@ Global
 		{5AEE0688-3F96-45D8-8AFB-0028279AC442}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AEE0688-3F96-45D8-8AFB-0028279AC442}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AEE0688-3F96-45D8-8AFB-0028279AC442}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9FAE496C-AD22-4DB4-83D2-2B5A03D08D97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9FAE496C-AD22-4DB4-83D2-2B5A03D08D97}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9FAE496C-AD22-4DB4-83D2-2B5A03D08D97}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9FAE496C-AD22-4DB4-83D2-2B5A03D08D97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F0F1AE3-6E64-4CA1-9D6B-E129605BCF09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F0F1AE3-6E64-4CA1-9D6B-E129605BCF09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F0F1AE3-6E64-4CA1-9D6B-E129605BCF09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F0F1AE3-6E64-4CA1-9D6B-E129605BCF09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
