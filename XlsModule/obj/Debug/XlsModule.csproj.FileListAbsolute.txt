@@ -25,3 +25,12 @@ C:\Users\Stoyan\Desktop\Electronic-Stores-System\XlsModule\bin\Debug\Ionic.Zip.x
 C:\Users\Stoyan\Desktop\Electronic-Stores-System\XlsModule\obj\Debug\XlsModule.csprojResolveAssemblyReference.cache
 C:\Users\Stoyan\Desktop\Electronic-Stores-System\XlsModule\obj\Debug\XlsModule.dll
 C:\Users\Stoyan\Desktop\Electronic-Stores-System\XlsModule\obj\Debug\XlsModule.pdb
+D:\#Telerik#\## GitHub Directory ##\Databases_Teamwork\XlsModule\bin\Debug\XlsModule.dll
+D:\#Telerik#\## GitHub Directory ##\Databases_Teamwork\XlsModule\bin\Debug\XlsModule.pdb
+D:\#Telerik#\## GitHub Directory ##\Databases_Teamwork\XlsModule\bin\Debug\ElectronicStoresSystem.Models.dll
+D:\#Telerik#\## GitHub Directory ##\Databases_Teamwork\XlsModule\bin\Debug\Ionic.Zip.dll
+D:\#Telerik#\## GitHub Directory ##\Databases_Teamwork\XlsModule\bin\Debug\ElectronicStoresSystem.Models.pdb
+D:\#Telerik#\## GitHub Directory ##\Databases_Teamwork\XlsModule\bin\Debug\Ionic.Zip.xml
+D:\#Telerik#\## GitHub Directory ##\Databases_Teamwork\XlsModule\obj\Debug\XlsModule.csprojResolveAssemblyReference.cache
+D:\#Telerik#\## GitHub Directory ##\Databases_Teamwork\XlsModule\obj\Debug\XlsModule.dll
+D:\#Telerik#\## GitHub Directory ##\Databases_Teamwork\XlsModule\obj\Debug\XlsModule.pdb
