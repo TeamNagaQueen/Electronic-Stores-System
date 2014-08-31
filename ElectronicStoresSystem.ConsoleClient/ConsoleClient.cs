@@ -7,6 +7,7 @@
     using MongoDb.Data;
     using MongoDb.Data.Entities;
     using ElectronicStoresSystem.Models;
+    using XmlModule.cs;
 
     class ConsoleClient
     {
@@ -28,13 +29,15 @@
             //MongoMigrator.MigrateMongoToSql(dbContext);
 
             // Use once if your MongoDB is empty else delete your Mongo DATABASE for the project so it will generate it new every time
-            MongoStartData.FillSampleCategories();
-            MongoStartData.FillSampleManufacturers();
-            MongoStartData.FillSampleProducts();
+            //MongoStartData.FillSampleCategories();s
+            //MongoStartData.FillSampleManufacturers();
+            //MongoStartData.FillSampleProducts();
 
             // Use once if your SQL Database is empty else delete your SQL DATABASE for the project so it will generate
             // the data for the tables
-            MongoMigrator.MigrateMongoToSql(dbContext);
+            //MongoMigrator.MigrateMongoToSql(dbContext);
+            var expenses = XmlReader.GetXmlInfo();
+            XmlReader.AddExpensesToSql(expenses);
         }
     }
 }

@@ -51,14 +51,14 @@
             var manufacturers = MongoDbProvider.LoadData<MongoManufacturer>(MongoDbProvider.db);
             var categories = MongoDbProvider.LoadData<MongoCategory>(MongoDbProvider.db);
 
-            for (int i = 0; i < 1000; i++)
+            for (int i = 0; i < 3; i++)
             {
                 var categoryId = rand.Next(1, categories.Count());
                 var manufacturerId = rand.Next(1, manufacturers.Count());
 
                 var product = new MongoProduct
                 {
-                    BasePrice = (rand.Next(1, 1000) + categoryId + manufacturerId),
+                    BasePrice = (rand.Next(1, 100) + categoryId + manufacturerId),
                     CategoryId = categoryId,
                     ManufacturerId = manufacturerId,
                     ProductId = i + 1,

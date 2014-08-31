@@ -1,0 +1,14 @@
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\XmlModule.cs\obj\Debug\XmlModule.csprojResolveAssemblyReference.cache
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\XmlModule.cs\bin\Debug\XmlModule.cs.dll
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\XmlModule.cs\bin\Debug\XmlModule.cs.pdb
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\XmlModule.cs\obj\Debug\XmlModule.cs.dll
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\XmlModule.cs\obj\Debug\XmlModule.cs.pdb
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\XmlModule.cs\bin\Debug\XmlModule.cs.dll.config
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\XmlModule.cs\bin\Debug\ElectronicStoresSystem.Data.dll
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\XmlModule.cs\bin\Debug\ElectronicStoresSystem.Models.dll
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\XmlModule.cs\bin\Debug\EntityFramework.dll
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\XmlModule.cs\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\XmlModule.cs\bin\Debug\ElectronicStoresSystem.Data.pdb
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\XmlModule.cs\bin\Debug\ElectronicStoresSystem.Models.pdb
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\XmlModule.cs\bin\Debug\EntityFramework.xml
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\XmlModule.cs\bin\Debug\EntityFramework.SqlServer.xml

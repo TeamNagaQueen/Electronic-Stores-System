@@ -52,6 +52,7 @@ using System.Text;
         {
             var products = MongoDbProvider.LoadData<MongoProduct>(MongoDbProvider.db);
 
+            Console.WriteLine(products.Count());
             foreach (var product in products)
             {
                 var newProduct = MongoParser.ParseProduct(product);

@@ -18,7 +18,7 @@
 
         public virtual Manufacturer Manufacturer { get; set; }
 
-        public DateTime? Month { get; set; }
+        public string Month { get; set; }
 
         public decimal? Value { get; set; }
     }

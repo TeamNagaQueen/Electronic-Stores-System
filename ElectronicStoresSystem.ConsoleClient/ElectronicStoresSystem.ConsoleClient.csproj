@@ -80,6 +80,10 @@
       <Project>{2ebe385d-a6b3-43d1-aa40-b204e3b06abc}</Project>
       <Name>XlsModule</Name>
     </ProjectReference>
+    <ProjectReference Include="..\XmlModule.cs\XmlModule.csproj">
+      <Project>{2c928056-01ba-47a9-b2e5-10c5825ead7d}</Project>
+      <Name>XmlModule</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

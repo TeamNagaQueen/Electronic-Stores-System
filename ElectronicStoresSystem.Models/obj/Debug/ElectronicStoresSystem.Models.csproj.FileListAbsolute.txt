@@ -27,3 +27,13 @@ C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electro
 C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electronic Stores Database\ElectronicStoresSystem.Models\obj\Debug\ElectronicStoresSystem.Models.csprojResolveAssemblyReference.cache
 C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electronic Stores Database\ElectronicStoresSystem.Models\obj\Debug\ElectronicStoresSystem.Models.dll
 C:\Users\Stoyan\Documents\Visual Studio 2013\Projects\TEAMWORK DATABASES\Electronic Stores Database\ElectronicStoresSystem.Models\obj\Debug\ElectronicStoresSystem.Models.pdb
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\ElectronicStoresSystem.Models\bin\Debug\ElectronicStoresSystem.Models.dll.config
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\ElectronicStoresSystem.Models\bin\Debug\ElectronicStoresSystem.Models.dll
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\ElectronicStoresSystem.Models\bin\Debug\ElectronicStoresSystem.Models.pdb
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\ElectronicStoresSystem.Models\bin\Debug\EntityFramework.dll
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\ElectronicStoresSystem.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\ElectronicStoresSystem.Models\bin\Debug\EntityFramework.xml
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\ElectronicStoresSystem.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\ElectronicStoresSystem.Models\obj\Debug\ElectronicStoresSystem.Models.csprojResolveAssemblyReference.cache
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\ElectronicStoresSystem.Models\obj\Debug\ElectronicStoresSystem.Models.dll
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\ElectronicStoresSystem.Models\obj\Debug\ElectronicStoresSystem.Models.pdb
