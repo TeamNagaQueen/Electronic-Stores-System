@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30324.0
+VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectronicStoresSystem.Models", "ElectronicStoresSystem.Models\ElectronicStoresSystem.Models.csproj", "{089C59D0-265F-4C5D-900C-0AC369F9C565}"
 EndProject
@@ -16,6 +16,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.ConsoleModule", "Test.ConsoleModule\Test.ConsoleModule.csproj", "{E9C0A301-84CB-41BE-83D6-5707B5F0268F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlModule", "XmlModule\XmlModule.csproj", "{6B4A5DB1-7336-49AE-BC5B-5186C7519EC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElecrtronicStoreSQLiteDB.Data", "ElecrtronicStoreSQLiteDB.Data\ElecrtronicStoreSQLiteDB.Data.csproj", "{A6416280-B3EC-4EAA-9F13-BF3885355276}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectronicStoreSQLiteDB.Model", "ElectronicStoreSQLiteDB.Model\ElectronicStoreSQLiteDB.Model.csproj", "{E736B85D-78A9-47C4-904A-9C8990CD01B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectronicStoreMySQL.Model", "ElectronicStoreMySQL.Model\ElectronicStoreMySQL.Model.csproj", "{6F9C2621-695C-4BDE-881B-157DCAA75C07}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +57,18 @@ Global
 		{6B4A5DB1-7336-49AE-BC5B-5186C7519EC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B4A5DB1-7336-49AE-BC5B-5186C7519EC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B4A5DB1-7336-49AE-BC5B-5186C7519EC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6416280-B3EC-4EAA-9F13-BF3885355276}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6416280-B3EC-4EAA-9F13-BF3885355276}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6416280-B3EC-4EAA-9F13-BF3885355276}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6416280-B3EC-4EAA-9F13-BF3885355276}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E736B85D-78A9-47C4-904A-9C8990CD01B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E736B85D-78A9-47C4-904A-9C8990CD01B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E736B85D-78A9-47C4-904A-9C8990CD01B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E736B85D-78A9-47C4-904A-9C8990CD01B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F9C2621-695C-4BDE-881B-157DCAA75C07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F9C2621-695C-4BDE-881B-157DCAA75C07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F9C2621-695C-4BDE-881B-157DCAA75C07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F9C2621-695C-4BDE-881B-157DCAA75C07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

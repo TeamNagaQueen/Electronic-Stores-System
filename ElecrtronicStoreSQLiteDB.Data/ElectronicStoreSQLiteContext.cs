@@ -1,14 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ElecrtronicStoreSQLiteDB.Data
+﻿namespace ElecrtronicStoreSQLiteDB.Data
 {
-    class ElectronicStoreSQLiteContext : DbContext
+    using System;
+    using System.Collections.Generic;
+    using System.Data.Entity;
+    using System.Linq;
+    using System.Text;
+    using System.Threading.Tasks;
+    using ElecrtronicStoreSQLiteDB.Model;
+
+    public class ElectronicStoreSQLiteContext : DbContext
     {
-        public IDbSet<Report> Reports { get; set; }
+        public ElectronicStoreSQLiteContext()
+            : base("SQLITE_URI")
+        {
+        }
+
+        public IDbSet<AdditionalData> AdditionalData { get; set; }
     }
 }
