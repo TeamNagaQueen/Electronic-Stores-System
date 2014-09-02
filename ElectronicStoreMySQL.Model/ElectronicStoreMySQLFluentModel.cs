@@ -60,8 +60,8 @@ namespace ElectronicStoreMySQL.Model
 		public static BackendConfiguration GetBackendConfiguration()
 		{
 			BackendConfiguration backend = new BackendConfiguration();
-			backend.Backend = "MsSql";
-			backend.ProviderName = "System.Data.SqlClient";
+			backend.Backend = "MySql";
+            backend.ProviderName = "MySql.Data.MySqlClient";
 		
 			CustomizeBackendConfiguration(ref backend);
 		
