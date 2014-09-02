@@ -24,3 +24,15 @@ D:\#Telerik#\## GitHub Directory ##\Databases_Teamwork\XmlModule.cs\bin\Debug\En
 D:\#Telerik#\## GitHub Directory ##\Databases_Teamwork\XmlModule.cs\obj\Debug\XmlModule.csprojResolveAssemblyReference.cache
 D:\#Telerik#\## GitHub Directory ##\Databases_Teamwork\XmlModule.cs\obj\Debug\XmlModule.cs.dll
 D:\#Telerik#\## GitHub Directory ##\Databases_Teamwork\XmlModule.cs\obj\Debug\XmlModule.cs.pdb
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\XmlModule.cs\bin\Debug\XmlModule.cs.dll.config
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\XmlModule.cs\bin\Debug\ElectronicStoresSystem.Data.dll
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\XmlModule.cs\bin\Debug\ElectronicStoresSystem.Models.dll
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\XmlModule.cs\bin\Debug\EntityFramework.dll
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\XmlModule.cs\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\XmlModule.cs\bin\Debug\ElectronicStoresSystem.Data.pdb
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\XmlModule.cs\bin\Debug\ElectronicStoresSystem.Models.pdb
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\XmlModule.cs\bin\Debug\EntityFramework.xml
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\XmlModule.cs\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\XmlModule.cs\obj\Debug\XmlModule.csprojResolveAssemblyReference.cache
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\XmlModule.cs\obj\Debug\XmlModule.cs.dll
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\XmlModule.cs\obj\Debug\XmlModule.cs.pdb

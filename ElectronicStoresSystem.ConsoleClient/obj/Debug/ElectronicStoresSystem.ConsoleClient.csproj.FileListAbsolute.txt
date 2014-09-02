@@ -106,3 +106,5 @@ D:\#Telerik#\## GitHub Directory ##\Databases_Teamwork\ElectronicStoresSystem.Co
 D:\#Telerik#\## GitHub Directory ##\Databases_Teamwork\ElectronicStoresSystem.ConsoleClient\obj\Debug\ElectronicStoresSystem.ConsoleClient.csprojResolveAssemblyReference.cache
 D:\#Telerik#\## GitHub Directory ##\Databases_Teamwork\ElectronicStoresSystem.ConsoleClient\obj\Debug\ElectronicStoresSystem.ConsoleClient.exe
 D:\#Telerik#\## GitHub Directory ##\Databases_Teamwork\ElectronicStoresSystem.ConsoleClient\obj\Debug\ElectronicStoresSystem.ConsoleClient.pdb
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\ElectronicStoresSystem.ConsoleClient\bin\Debug\XmlModule.cs.dll
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\ElectronicStoresSystem.ConsoleClient\bin\Debug\XmlModule.cs.pdb

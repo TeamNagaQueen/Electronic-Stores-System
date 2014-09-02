@@ -8,3 +8,5 @@ D:\#Telerik#\## GitHub Directory ##\Databases_Teamwork\SQLiteDB.ConsoleClient\bi
 D:\#Telerik#\## GitHub Directory ##\Databases_Teamwork\SQLiteDB.ConsoleClient\obj\Debug\SQLiteDB.ConsoleClient.csprojResolveAssemblyReference.cache
 D:\#Telerik#\## GitHub Directory ##\Databases_Teamwork\SQLiteDB.ConsoleClient\obj\Debug\SQLiteDB.ConsoleClient.exe
 D:\#Telerik#\## GitHub Directory ##\Databases_Teamwork\SQLiteDB.ConsoleClient\obj\Debug\SQLiteDB.ConsoleClient.pdb
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\SQLiteDB.ConsoleClient\obj\Debug\SQLiteDB.ConsoleClient.csprojResolveAssemblyReference.cache
+C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\SQLiteDB.ConsoleClient\obj\Debug\SQLiteDB.ConsoleClient.exe
