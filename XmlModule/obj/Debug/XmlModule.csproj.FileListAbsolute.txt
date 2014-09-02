@@ -36,3 +36,11 @@ C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\XmlModule\bin\Debug\Ele
 C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\XmlModule\bin\Debug\Telerik.OpenAccess.35.Extensions.dll
 C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\XmlModule\bin\Debug\ElectronicStoreMySQL.Model.pdb
 C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\XmlModule\bin\Debug\Telerik.OpenAccess.35.Extensions.xml
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\XmlModule\bin\Debug\x64\SQLite.Interop.dll
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\XmlModule\bin\Debug\x86\SQLite.Interop.dll
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\XmlModule\bin\Debug\ElectronicStoreMySQL.Model.dll
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\XmlModule\bin\Debug\Telerik.OpenAccess.35.Extensions.dll
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\XmlModule\bin\Debug\ElectronicStoreMySQL.Model.pdb
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\XmlModule\bin\Debug\Telerik.OpenAccess.35.Extensions.xml
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\XmlModule\bin\Debug\itextsharp.dll
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\XmlModule\bin\Debug\itextsharp.xml

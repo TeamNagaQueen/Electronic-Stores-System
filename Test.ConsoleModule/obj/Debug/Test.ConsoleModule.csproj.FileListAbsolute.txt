@@ -60,3 +60,16 @@ C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\Test.ConsoleModule\bin\
 C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\Test.ConsoleModule\bin\Debug\Telerik.OpenAccess.35.Extensions.dll
 C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\Test.ConsoleModule\bin\Debug\ElectronicStoreMySQL.Model.pdb
 C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\Test.ConsoleModule\bin\Debug\Telerik.OpenAccess.35.Extensions.xml
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\Test.ConsoleModule\bin\Debug\ElectronicStoreMySQL.Model.dll
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\Test.ConsoleModule\bin\Debug\Telerik.OpenAccess.35.Extensions.dll
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\Test.ConsoleModule\bin\Debug\Telerik.OpenAccess.40.Extensions.dll
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\Test.ConsoleModule\bin\Debug\Telerik.OpenAccess.dll
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\Test.ConsoleModule\bin\Debug\Telerik.OpenAccess.Runtime.dll
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\Test.ConsoleModule\bin\Debug\ElectronicStoreMySQL.Model.pdb
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\Test.ConsoleModule\bin\Debug\Telerik.OpenAccess.xml
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\Test.ConsoleModule\bin\Debug\Telerik.OpenAccess.35.Extensions.xml
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\Test.ConsoleModule\bin\Debug\Telerik.OpenAccess.40.Extensions.xml
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\Test.ConsoleModule\bin\Debug\itextsharp.dll
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\Test.ConsoleModule\bin\Debug\PDFModule.dll
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\Test.ConsoleModule\bin\Debug\PDFModule.pdb
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\Test.ConsoleModule\bin\Debug\itextsharp.xml

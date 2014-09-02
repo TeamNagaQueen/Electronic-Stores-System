@@ -18,5 +18,7 @@ namespace ElectronicStoreMySQL.Model
         public decimal Price { get; set; }
 
         public decimal Sum { get; set; }
+
+        public DateTime Date { get; set; }
     }
 }

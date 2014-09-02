@@ -58,3 +58,5 @@ D:\#Telerik#\## GitHub Directory ##\Databases_Teamwork\ElectronicStoresSystem.Da
 D:\#Telerik#\## GitHub Directory ##\Databases_Teamwork\ElectronicStoresSystem.Data\obj\Debug\ElectronicStoresSystem.Data.csprojResolveAssemblyReference.cache
 D:\#Telerik#\## GitHub Directory ##\Databases_Teamwork\ElectronicStoresSystem.Data\obj\Debug\ElectronicStoresSystem.Data.dll
 D:\#Telerik#\## GitHub Directory ##\Databases_Teamwork\ElectronicStoresSystem.Data\obj\Debug\ElectronicStoresSystem.Data.pdb
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\ElectronicStoresSystem.Data\bin\Debug\itextsharp.dll
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\ElectronicStoresSystem.Data\bin\Debug\itextsharp.xml

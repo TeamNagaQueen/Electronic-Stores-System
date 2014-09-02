@@ -14,3 +14,5 @@ C:\Users\Stoyan\Desktop\Electronic-Stores-System\ElectronicStoreMySQL.Model\bin\
 C:\Users\Stoyan\Desktop\Electronic-Stores-System\ElectronicStoreMySQL.Model\obj\Debug\ElectronicStoreMySQL.Model.csprojResolveAssemblyReference.cache
 C:\Users\Stoyan\Desktop\Electronic-Stores-System\ElectronicStoreMySQL.Model\obj\Debug\ElectronicStoreMySQL.Model.dll
 C:\Users\Stoyan\Desktop\Electronic-Stores-System\ElectronicStoreMySQL.Model\obj\Debug\ElectronicStoreMySQL.Model.pdb
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\ElectronicStoreMySQL.Model\bin\Debug\itextsharp.dll
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\ElectronicStoreMySQL.Model\bin\Debug\itextsharp.xml

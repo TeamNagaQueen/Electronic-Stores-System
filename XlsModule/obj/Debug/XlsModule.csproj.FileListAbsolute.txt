@@ -48,3 +48,5 @@ C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\XlsModule\bin\Debug\Ent
 C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\XlsModule\bin\Debug\ElectronicStoresSystem.Data.pdb
 C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\XlsModule\bin\Debug\EntityFramework.xml
 C:\Users\Yasen\Documents\GitHub\Electronic-Stores-System\XlsModule\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\XlsModule\bin\Debug\itextsharp.dll
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\XlsModule\bin\Debug\itextsharp.xml

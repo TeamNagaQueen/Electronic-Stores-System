@@ -50,3 +50,5 @@ D:\#Telerik#\## GitHub Directory ##\Databases_Teamwork\MongoDb.Data\bin\Debug\Mo
 D:\#Telerik#\## GitHub Directory ##\Databases_Teamwork\MongoDb.Data\obj\Debug\MongoDb.Data.csprojResolveAssemblyReference.cache
 D:\#Telerik#\## GitHub Directory ##\Databases_Teamwork\MongoDb.Data\obj\Debug\MongoDb.Data.dll
 D:\#Telerik#\## GitHub Directory ##\Databases_Teamwork\MongoDb.Data\obj\Debug\MongoDb.Data.pdb
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\MongoDb.Data\bin\Debug\itextsharp.dll
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\MongoDb.Data\bin\Debug\itextsharp.xml

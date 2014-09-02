@@ -26,3 +26,5 @@ C:\Users\Stoyan\Desktop\Electronic-Stores-System\ElectronicStoreSQLiteDB.Model\b
 C:\Users\Stoyan\Desktop\Electronic-Stores-System\ElectronicStoreSQLiteDB.Model\obj\Debug\ElectronicStoreSQLiteDB.Model.csprojResolveAssemblyReference.cache
 C:\Users\Stoyan\Desktop\Electronic-Stores-System\ElectronicStoreSQLiteDB.Model\obj\Debug\ElectronicStoreSQLiteDB.Model.dll
 C:\Users\Stoyan\Desktop\Electronic-Stores-System\ElectronicStoreSQLiteDB.Model\obj\Debug\ElectronicStoreSQLiteDB.Model.pdb
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\ElectronicStoreSQLiteDB.Model\bin\Debug\itextsharp.dll
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\ElectronicStoreSQLiteDB.Model\bin\Debug\itextsharp.xml

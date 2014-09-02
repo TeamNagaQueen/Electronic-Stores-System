@@ -134,3 +134,5 @@ C:\Users\Stoyan\Desktop\Electronic-Stores-System\ElectronicStoresSystem.ConsoleC
 C:\Users\Stoyan\Desktop\Electronic-Stores-System\ElectronicStoresSystem.ConsoleClient\bin\Debug\Telerik.OpenAccess.xml
 C:\Users\Stoyan\Desktop\Electronic-Stores-System\ElectronicStoresSystem.ConsoleClient\bin\Debug\Telerik.OpenAccess.35.Extensions.xml
 C:\Users\Stoyan\Desktop\Electronic-Stores-System\ElectronicStoresSystem.ConsoleClient\bin\Debug\Telerik.OpenAccess.40.Extensions.xml
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\ElectronicStoresSystem.ConsoleClient\bin\Debug\itextsharp.dll
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\ElectronicStoresSystem.ConsoleClient\bin\Debug\itextsharp.xml

@@ -38,6 +38,9 @@
     <Reference Include="EntityFramework.SqlServer">
       <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>..\packages\iTextSharp.5.5.2\lib\itextsharp.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -46,6 +49,20 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="Telerik.OpenAccess, Version=2014.2.711.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Telerik.DataAccess.Core.2014.2.711.1\lib\net40\Telerik.OpenAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.OpenAccess.35.Extensions, Version=2014.2.711.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342, processorArchitecture=MSIL">
+      <HintPath>..\packages\Telerik.DataAccess.Core.2014.2.711.1\lib\net40\Telerik.OpenAccess.35.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.OpenAccess.40.Extensions, Version=2014.2.711.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342, processorArchitecture=MSIL">
+      <HintPath>..\packages\Telerik.DataAccess.Core.2014.2.711.1\lib\net40\Telerik.OpenAccess.40.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.OpenAccess.Runtime, Version=2014.2.711.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Telerik.DataAccess.Core.2014.2.711.1\lib\net40\Telerik.OpenAccess.Runtime.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="TestConsoleModule.cs" />
@@ -56,6 +73,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ElectronicStoreMySQL.Model\ElectronicStoreMySQL.Model.csproj">
+      <Project>{6f9c2621-695c-4bde-881b-157dcaa75c07}</Project>
+      <Name>ElectronicStoreMySQL.Model</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ElectronicStoresSystem.ConsoleClient\ElectronicStoresSystem.ConsoleClient.csproj">
       <Project>{664a3d7d-904f-44f6-8046-8c2bfa413b01}</Project>
       <Name>ElectronicStoresSystem.ConsoleClient</Name>
@@ -71,6 +92,10 @@
     <ProjectReference Include="..\MongoDb.Data\MongoDb.Data.csproj">
       <Project>{98d9524f-3e13-4e5b-bd44-8955f1930900}</Project>
       <Name>MongoDb.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PDFModule\PDFModule.csproj">
+      <Project>{e7b83243-75f6-4f82-a938-d2dc0b43d173}</Project>
+      <Name>PDFModule</Name>
     </ProjectReference>
     <ProjectReference Include="..\XlsModule\XlsModule.csproj">
       <Project>{2ebe385d-a6b3-43d1-aa40-b204e3b06abc}</Project>
