@@ -10,7 +10,7 @@
         public ElectronicStoresSystemDbContext()
             : base("ElectronicSystemConnection")
         {
-            Database.SetInitializer(new MigrateDatabaseToLatestVersion<ElectronicStoresSystemDbContext, Configuration>());
+            Database.SetInitializer(new DropCreateDatabaseAlways<ElectronicStoresSystemDbContext>());
         }
 
         public IDbSet<Category> Categories { get; set; }

@@ -39,3 +39,5 @@ C:\Users\Stoyan\Desktop\Electronic-Stores-System\XlsModule\bin\Debug\EntityFrame
 C:\Users\Stoyan\Desktop\Electronic-Stores-System\XlsModule\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Stoyan\Desktop\Electronic-Stores-System\XlsModule\bin\Debug\EntityFramework.xml
 C:\Users\Stoyan\Desktop\Electronic-Stores-System\XlsModule\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\XlsModule\bin\Debug\ElectronicStoresSystem.Data.dll
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\XlsModule\bin\Debug\ElectronicStoresSystem.Data.pdb

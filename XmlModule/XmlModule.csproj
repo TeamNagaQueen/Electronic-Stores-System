@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="XmlMigrator.cs" />
     <Compile Include="XmlReader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

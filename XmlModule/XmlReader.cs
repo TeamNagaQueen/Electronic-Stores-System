@@ -27,11 +27,9 @@
 
                     foreach (XmlNode manufacturerNode in node.ChildNodes)
                     {
-                        Console.WriteLine(manufacturerNode.Attributes["month"].Value);
-                        Console.WriteLine(manufacturerNode.InnerText);
-
                         Expense currentExpense = new Expense
                         {
+                            Manufacturer = new Manufacturer { ManufacturerName = name },
                             Month = manufacturerNode.Attributes["month"].Value,
                             Value = decimal.Parse(manufacturerNode.InnerText)
                         };

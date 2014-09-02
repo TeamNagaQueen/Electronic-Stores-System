@@ -17,22 +17,23 @@
             ElectronicStoresSystemDbContext dbContext = new ElectronicStoresSystemDbContext();
             //XlsReader.ExtractZipReports();
 
-            var sales = XlsReader.ReadAllExcells();
             var expenses = XmlReader.GetXmlInfo();
-
             using (dbContext)
             {
-                //MongoStartData.FillSampleCategories();
-                //MongoStartData.FillSampleManufacturers();
-                //MongoStartData.FillSampleProducts();
-                //MongoMigrator.MigrateMongoToSql(dbContext);
+                MongoStartData.FillSampleCategories();
+                MongoStartData.FillSampleManufacturers();
+                MongoStartData.FillSampleProducts();
+                MongoMigrator.MigrateMongoToSql(dbContext);
+                var sales = XlsReader.ReadAllExcells();
+                XlsMigrator.MigrateXslToSQL(dbContext, sales);
+                XmlMigrator.MigrateXmlToSQL(dbContext, expenses);
             }
 
             // Use once if your MongoDB is empty else delete your Mongo DATABASE for the project so it will generate it new every time
 
             // Use once if your SQL Database is empty else delete your SQL DATABASE for the project so it will generate
             // the data for the tables
-            XmlReader.AddExpensesToSql(expenses);
+            //XmlReader.AddExpensesToSql(expenses);
         }
     }
 }

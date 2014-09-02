@@ -73,7 +73,7 @@
 
                 int counter = 0;
                 string[] splittedName = path.Split(new string[] { "-Sales-Report-" }, StringSplitOptions.RemoveEmptyEntries);
-                string location = splittedName[0].Substring(splittedName[0].LastIndexOf('\\'));
+                string location = splittedName[0].Substring(splittedName[0].LastIndexOf('\\') + 1).Replace(@"-", " ");
                 int dotIndex = splittedName[1].IndexOf('.');
                 string date = splittedName[1].Substring(0, dotIndex);
                 foreach (DataRow row in table.Rows)
@@ -110,7 +110,7 @@
                         currentSale.Quantity = (int)info[1];
                         currentSale.Price = info[2];
                         currentSale.Sum = info[3];
-                        //currentSale.Location = location;
+                        currentSale.Store = new Store { StoreName = location };
                         currentSale.Date = DateTime.ParseExact(date, "dd-MMM-yyyy", CultureInfo.InvariantCulture);
                         allSales.Add(currentSale);
                     }

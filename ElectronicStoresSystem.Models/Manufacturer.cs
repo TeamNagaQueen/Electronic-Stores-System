@@ -21,7 +21,7 @@
 
         public string ManufacturerName { get; set; }
 
-        public ICollection<Expense> Expenses
+        public virtual ICollection<Expense> Expenses
         {
             get { return this.expenses; }
             set { this.expenses = value; }

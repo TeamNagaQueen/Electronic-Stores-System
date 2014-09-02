@@ -12,9 +12,9 @@
 
         public static void FillSampleManufacturers()
         {
-            var manufacturers = new string[] { "Samsung", "Nokia", "Apple", "LG Electronics", 
+            var manufacturers = new string[] { "Samsung Electronics Co.", "Nokia", "Apple Inc.", "LG Electronics", 
                                                 "ZTE", "Huawei", "TCL Communication", "Lenovo",
-                                                "Sony Mobile Communications", "Yulong" };
+                                                "Sony Mobile Communications", "Panasonic Corp." };
 
             for (int i = 0; i < manufacturers.Length; i++)
             {
@@ -51,7 +51,7 @@
             var manufacturers = MongoDbProvider.LoadData<MongoManufacturer>(MongoDbProvider.db);
             var categories = MongoDbProvider.LoadData<MongoCategory>(MongoDbProvider.db);
 
-            for (int i = 0; i < 3; i++)
+            for (int i = 0; i < 100; i++)
             {
                 var categoryId = rand.Next(1, categories.Count());
                 var manufacturerId = rand.Next(1, manufacturers.Count());

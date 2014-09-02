@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="XlsMigrator.cs" />
     <Compile Include="XlsReader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -57,6 +58,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ElectronicStoresSystem.Data\ElectronicStoresSystem.Data.csproj">
+      <Project>{cb7bf651-6dbb-4280-a989-435f784056fe}</Project>
+      <Name>ElectronicStoresSystem.Data</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ElectronicStoresSystem.Models\ElectronicStoresSystem.Models.csproj">
       <Project>{089c59d0-265f-4c5d-900c-0ac369f9c565}</Project>
       <Name>ElectronicStoresSystem.Models</Name>
