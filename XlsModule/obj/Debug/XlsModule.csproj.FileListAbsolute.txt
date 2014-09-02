@@ -34,3 +34,8 @@ D:\#Telerik#\## GitHub Directory ##\Databases_Teamwork\XlsModule\bin\Debug\Ionic
 D:\#Telerik#\## GitHub Directory ##\Databases_Teamwork\XlsModule\obj\Debug\XlsModule.csprojResolveAssemblyReference.cache
 D:\#Telerik#\## GitHub Directory ##\Databases_Teamwork\XlsModule\obj\Debug\XlsModule.dll
 D:\#Telerik#\## GitHub Directory ##\Databases_Teamwork\XlsModule\obj\Debug\XlsModule.pdb
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\XlsModule\bin\Debug\XlsModule.dll.config
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\XlsModule\bin\Debug\EntityFramework.dll
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\XlsModule\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\XlsModule\bin\Debug\EntityFramework.xml
+C:\Users\Stoyan\Desktop\Electronic-Stores-System\XlsModule\bin\Debug\EntityFramework.SqlServer.xml

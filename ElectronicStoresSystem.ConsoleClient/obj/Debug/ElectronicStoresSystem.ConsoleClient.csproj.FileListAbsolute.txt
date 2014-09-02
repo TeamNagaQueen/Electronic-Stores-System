@@ -78,8 +78,6 @@ C:\Users\Stoyan\Desktop\Electronic-Stores-System\ElectronicStoresSystem.ConsoleC
 C:\Users\Stoyan\Desktop\Electronic-Stores-System\ElectronicStoresSystem.ConsoleClient\bin\Debug\MongoDB.Driver.xml
 C:\Users\Stoyan\Desktop\Electronic-Stores-System\ElectronicStoresSystem.ConsoleClient\bin\Debug\Ionic.Zip.xml
 C:\Users\Stoyan\Desktop\Electronic-Stores-System\ElectronicStoresSystem.ConsoleClient\obj\Debug\ElectronicStoresSystem.ConsoleClient.csprojResolveAssemblyReference.cache
-C:\Users\Stoyan\Desktop\Electronic-Stores-System\ElectronicStoresSystem.ConsoleClient\bin\Debug\XmlModule.cs.dll
-C:\Users\Stoyan\Desktop\Electronic-Stores-System\ElectronicStoresSystem.ConsoleClient\bin\Debug\XmlModule.cs.pdb
 D:\#Telerik#\## GitHub Directory ##\Databases_Teamwork\ElectronicStoresSystem.ConsoleClient\bin\Debug\ElectronicStoresSystem.ConsoleClient.exe.config
 D:\#Telerik#\## GitHub Directory ##\Databases_Teamwork\ElectronicStoresSystem.ConsoleClient\bin\Debug\ElectronicStoresSystem.ConsoleClient.exe
 D:\#Telerik#\## GitHub Directory ##\Databases_Teamwork\ElectronicStoresSystem.ConsoleClient\bin\Debug\ElectronicStoresSystem.ConsoleClient.pdb
