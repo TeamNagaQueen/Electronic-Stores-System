@@ -1,1 +1,0 @@
-Electronic Stores System
