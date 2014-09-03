@@ -71,14 +71,6 @@
 
             //Console.Write("Database update complete! Press any key to close.");
             var reports = MySQLDataProvider.LoadReports();
-
-            //PDFCreator.CreatePDF(reports);
-<<<<<<< HEAD
-            //XmlModule.XmlCreator.CreateXml(reports);
-=======
-            //XmlCreator.CreateXml(reports);
-            JSONCreator.CreateJSON(reports);
->>>>>>> d20f4f4832e3571d4b2b666bca66451e814445e1
         }
     }
 }
