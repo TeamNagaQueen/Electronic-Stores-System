@@ -55,10 +55,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ElectronicStoresSystem.ConsoleClient\ElectronicStoresSystem.ConsoleClient.csproj">
-      <Project>{664a3d7d-904f-44f6-8046-8c2bfa413b01}</Project>
-      <Name>ElectronicStoresSystem.ConsoleClient</Name>
-    </ProjectReference>
     <ProjectReference Include="..\ElectronicStoresSystem.Data\ElectronicStoresSystem.Data.csproj">
       <Project>{cb7bf651-6dbb-4280-a989-435f784056fe}</Project>
       <Name>ElectronicStoresSystem.Data</Name>

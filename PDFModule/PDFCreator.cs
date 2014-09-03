@@ -31,6 +31,7 @@
                 table.DefaultCell.VerticalAlignment = Element.ALIGN_MIDDLE;
                 myDocument.Open();
                 var context = new ElectronicStoresSystemDbContext();
+                string specifier = "0,0.00";
 
                 decimal totalSum = 0;
                 myDocument.Open();
@@ -85,20 +86,20 @@
                 {
                     table.AddCell((report.ProductName).ToString());
                     table.AddCell((report.Quantity).ToString());
-                    table.AddCell((report.Price).ToString());
+                    table.AddCell(string.Format("{0:C2}", report.Price));
                     table.AddCell(String.Format("Supermarket \"{0}\"", report.StoreName));
-                    PdfPCell sum = new PdfPCell(new Phrase((report.Sum).ToString()));
+                    PdfPCell sum = new PdfPCell(new Phrase(string.Format("{0:C2}", report.Sum)));
                     sum.HorizontalAlignment = Element.ALIGN_RIGHT;
                     table.AddCell(sum);
                     currentSum += report.Sum;
                     totalSum += report.Sum;
                 }
-                PdfPCell current = new PdfPCell(new Phrase(currentSum.ToString()));
+                PdfPCell current = new PdfPCell(new Phrase(string.Format("{0:C2}", currentSum)));
                 current.FixedHeight = 27f;
                 current.HorizontalAlignment = Element.ALIGN_RIGHT;
                 current.VerticalAlignment = Element.ALIGN_MIDDLE;
                 table.AddCell(current);
-
+                
                 PdfPCell grandTotal = new PdfPCell(new Phrase("Grand total: "));
                 grandTotal.Colspan = 3;
                 grandTotal.FixedHeight = 27f;
@@ -106,7 +107,7 @@
                 grandTotal.HorizontalAlignment = Element.ALIGN_RIGHT;
                 grandTotal.VerticalAlignment = Element.ALIGN_MIDDLE;
                 table.AddCell(grandTotal);
-                PdfPCell total = new PdfPCell(new Phrase(totalSum.ToString()));
+                PdfPCell total = new PdfPCell(new Phrase(string.Format("{0:C2}", totalSum)));
                 total.BackgroundColor = new BaseColor(210, 210, 210);
                 total.HorizontalAlignment = Element.ALIGN_RIGHT;
                 total.VerticalAlignment = Element.ALIGN_MIDDLE;

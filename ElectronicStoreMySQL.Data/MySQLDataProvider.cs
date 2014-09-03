@@ -20,7 +20,7 @@
             }
         }
 
-        public static IEnumerable<Report> LoadReports()
+        public static List<Report> LoadReports()
         {
             var ctx = new ElectronicStoreMySQLFluentModel();
 

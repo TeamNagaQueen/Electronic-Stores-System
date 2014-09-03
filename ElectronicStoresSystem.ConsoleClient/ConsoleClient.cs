@@ -13,7 +13,8 @@
     using Telerik.OpenAccess;
     using ElectronicStoreMySQL.Data;
     using XlsModule;
-    using System.Xml;
+    using XmlModule;
+    using PDFModule;
 
     class ConsoleClient
     {
@@ -23,98 +24,57 @@
             ElectronicStoresSystemDbContext dbContext = new ElectronicStoresSystemDbContext();
             //XlsReader.ExtractZipReports();
             //
-            //using (dbContext)
-            //{
-            //    dbContext.Categories.Add(new Category { CategoryName = "Smartphone" });
-            //    dbContext.SaveChanges();
-            //}
 
-            //var sales = XlsReader.ReadAllExcells();
-            //Console.WriteLine();
-
-            //MongoMigrator.MigrateMongoToSql(dbContext);
-
-            // Use once if your MongoDB is empty else delete your Mongo DATABASE for the project so it will generate it new every time
-            //MongoStartData.FillSampleCategories();s
-            //MongoStartData.FillSampleManufacturers();
-            //MongoStartData.FillSampleProducts();
-
-            // Use once if your SQL Database is empty else delete your SQL DATABASE for the project so it will generate
-            // the data for the tables
-            //MongoMigrator.MigrateMongoToSql(dbContext);
-            //var expenses = XmlReader.GetXmlInfo();
-            //XmlReader.AddExpensesToSql(expenses);
-
-            var sqliteContext = new ElectronicStoreSQLiteContext();
-
-            var report = new AdditionalData
+            var sales = XlsReader.ReadAllExcells();
+            //
+            //// Use once if your MongoDB is empty else delete your Mongo DATABASE for the project so it will generate it new every time
+            MongoStartData.FillSampleCategories();
+            MongoStartData.FillSampleManufacturers();
+            MongoStartData.FillSampleProducts();
+            //
+            //// Use once if your SQL Database is empty else delete your SQL DATABASE for the project so it will generate
+            //// the data for the tables
+            MongoMigrator.MigrateMongoToSql(dbContext);
+            using (dbContext)
             {
-                InfoId = 1,
-                InfoDescription = "Report",
-            };
-
-            SQLiteManager.SaveData(report);
-
-            var rep = SQLiteManager.LoadAdditionalDataInfo();
-
-            foreach (var item in rep)
-            {
-                Console.WriteLine(item.InfoId);
+                XlsMigrator.MigrateXslToSQL(dbContext, sales);
+                var expenses = XmlReader.GetXmlInfo();
+                XmlMigrator.MigrateXmlToSQL(dbContext, expenses);
             }
 
-            Console.WriteLine(sqliteContext.AdditionalDatas.First().InfoDescription);
+            //var sqliteContext = new ElectronicStoreSQLiteContext();
 
-            //UpdateDatabase();
-
-            //using (var ctx = new ElectronicStoreMySQLFluentModel())
+            //var report = new AdditionalData
             //{
-            //    var pesho = new Report()
-            //    {
-            //        ProductName = "asd",
-            //        Quantity = 5,
-            //        Price = 5,
-            //        StoreName = "name",
-            //        Sum = 15,
-            //    };
-            //    ctx.Add(pesho);
-            //    ctx.SaveChanges();
-            //}
+            //    InfoId = 1,
+            //    InfoDescription = "Report",
+            //};
+            //
+            //SQLiteManager.SaveData(report);
 
-            //MySqlInitializer.UpdateDatabase();
-            //MySqlReportsMigrator.MigrateReports(dbContext);
+            //var rep = SQLiteManager.LoadAdditionalDataInfo();
+
+            //foreach (var item in rep)
+            //{
+            //    Console.WriteLine(item.InfoId);
+            //}
+            //
+            //Console.WriteLine(sqliteContext.AdditionalDatas.First().InfoDescription);
+
+
+            MySqlInitializer.UpdateDatabase();
+            dbContext = new ElectronicStoresSystemDbContext();
+            using (dbContext)
+            {
+                MySqlReportsMigrator.MigrateReports(dbContext);
+            }
 
             Console.WriteLine(MySQLDataProvider.LoadReports().Count());
 
             Console.Write("Database update complete! Press any key to close.");
-        }
+            var reports = MySQLDataProvider.LoadReports();
 
-        private static void UpdateDatabase()
-        {
-            using (var context = new ElectronicStoreMySQL.Model.ElectronicStoreMySQLFluentModel())
-            {
-                var schemaHandler = context.GetSchemaHandler();
-                EnsureDB(schemaHandler);
-            }
-        }
-
-        private static void EnsureDB(ISchemaHandler schemaHandler)
-        {
-            string script = null;
-
-            if (schemaHandler.DatabaseExists())
-            {
-                script = schemaHandler.CreateUpdateDDLScript(null);
-            }
-            else
-            {
-                schemaHandler.CreateDatabase();
-                script = schemaHandler.CreateDDLScript();
-            }
-
-            if (!string.IsNullOrEmpty(script))
-            {
-                schemaHandler.ExecuteDDLScript(script);
-            }
+            PDFCreator.CreatePDF(reports);
         }
     }
 }

@@ -50,6 +50,9 @@
         {
             var manufacturers = MongoDbProvider.LoadData<MongoManufacturer>(MongoDbProvider.db);
             var categories = MongoDbProvider.LoadData<MongoCategory>(MongoDbProvider.db);
+            var products = new string[] { "S6000", "A3000", "P430", "V210", "E320", "W210", "OW435", "K9800", "M1000",
+                "M200", "N200", "S3000", "F400", "L450", "B2000", "A300", "J450", "C3500", "JS2100", "A2100", "D5050",
+                "G4580", "V340", "R3500", "T680", "B2450", "Z210", "D3200", "Y1220", "X2400", "Y9000", "T500", "R450"};
 
             for (int i = 0; i < 100; i++)
             {
@@ -62,7 +65,7 @@
                     CategoryId = categoryId,
                     ManufacturerId = manufacturerId,
                     ProductId = i + 1,
-                    ProductName = manufacturers.ToList()[manufacturerId].ManufacturerName + "'s " + categories.ToList()[categoryId].CategoryName,
+                    ProductName = categories.ToList()[categoryId].CategoryName + " " + products[rand.Next(0, products.Length)],
                 };
 
                 MongoDbProvider.SaveData<MongoProduct>(MongoDbProvider.db, product);

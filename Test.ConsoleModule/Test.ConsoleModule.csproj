@@ -38,6 +38,9 @@
     <Reference Include="EntityFramework.SqlServer">
       <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="Ionic.Zip">
+      <HintPath>..\packages\DotNetZip.1.9.3\lib\net20\Ionic.Zip.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -70,6 +73,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ElectronicStoreMySQL.Data\ElectronicStoreMySQL.Data.csproj">
+      <Project>{995deab6-40d0-4d57-9d5d-15d35a1ad772}</Project>
+      <Name>ElectronicStoreMySQL.Data</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ElectronicStoreMySQL.Model\ElectronicStoreMySQL.Model.csproj">
       <Project>{6F9C2621-695C-4BDE-881B-157DCAA75C07}</Project>
       <Name>ElectronicStoreMySQL.Model</Name>

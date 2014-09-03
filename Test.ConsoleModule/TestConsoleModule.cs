@@ -11,6 +11,7 @@
     using ElectronicStoresSystem.Models;
     using System.Collections.Generic;
     using PDFModule;
+    using ElectronicStoreMySQL.Data;
 
     class TestConsoleModule
     {
@@ -37,9 +38,7 @@
             // Use once if your SQL Database is empty else delete your SQL DATABASE for the project so it will generate
             // the data for the tables
             //XmlReader.AddExpensesToSql(expenses);
-            var reports = new List<Report>()
-            { new Report { ProductName = "REPORT", Quantity = 100, Price = 200, StoreName = "Bakaliqta", Sum = 2000},
-             new Report { ProductName = "VTORIQ", Quantity = 100, Price = 200, StoreName = "Bakaliqta", Sum = 2000 }};
+            var reports = MySQLDataProvider.LoadReports();
 
             PDFCreator.CreatePDF(reports);
         }
