@@ -20,11 +20,8 @@
                 {
                     if (!dbContex.Stores.Any(x => x.StoreName == sale.Store.StoreName))
                     {
-                        Console.WriteLine("|{0}|", sale.Store.StoreName);
-                        Console.WriteLine("|{0}|", sale.Store.StoreName);
                         dbContex.Stores.Add(sale.Store);
                         dbContex.SaveChanges();
-
                     }
                 }
             }
