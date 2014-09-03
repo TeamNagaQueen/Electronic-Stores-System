@@ -25,22 +25,22 @@
             //XlsReader.ExtractZipReports();
             //
 
-            var sales = XlsReader.ReadAllExcells();
+            //var sales = XlsReader.ReadAllExcells();
             //
             //// Use once if your MongoDB is empty else delete your Mongo DATABASE for the project so it will generate it new every time
-            MongoStartData.FillSampleCategories();
-            MongoStartData.FillSampleManufacturers();
-            MongoStartData.FillSampleProducts();
+            //MongoStartData.FillSampleCategories();
+            //MongoStartData.FillSampleManufacturers();
+            //MongoStartData.FillSampleProducts();
             //
             //// Use once if your SQL Database is empty else delete your SQL DATABASE for the project so it will generate
             //// the data for the tables
-            MongoMigrator.MigrateMongoToSql(dbContext);
-            using (dbContext)
-            {
-                XlsMigrator.MigrateXslToSQL(dbContext, sales);
-                var expenses = XmlReader.GetXmlInfo();
-                XmlMigrator.MigrateXmlToSQL(dbContext, expenses);
-            }
+            //MongoMigrator.MigrateMongoToSql(dbContext);
+            //using (dbContext)
+            //{
+            //    XlsMigrator.MigrateXslToSQL(dbContext, sales);
+            //    var expenses = XmlReader.GetXmlInfo();
+            //    XmlMigrator.MigrateXmlToSQL(dbContext, expenses);
+            //}
 
             //var sqliteContext = new ElectronicStoreSQLiteContext();
 
@@ -75,6 +75,23 @@
             var reports = MySQLDataProvider.LoadReports();
 
             PDFCreator.CreatePDF(reports);
+
+            //var addInfo = new AdditionalData
+            //{
+            //    InfoDescription = "KJH",
+            //    Mark = 15,
+            //};
+
+            //var sqliteCtx = new ElectronicStoreSQLiteContext();
+
+            //sqliteCtx.AdditionalDatas.Add(addInfo);
+            //sqliteCtx.SaveChanges();
+
+            //foreach (var item in sqliteCtx.AdditionalDatas.ToList())
+            //{
+            //    Console.WriteLine("{0} -> {1}", item.InfoDescription, item.Mark);
+            //}
+
         }
     }
 }

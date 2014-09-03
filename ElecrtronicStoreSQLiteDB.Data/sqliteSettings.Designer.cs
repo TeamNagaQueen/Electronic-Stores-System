@@ -25,8 +25,7 @@ namespace ElecrtronicStoreSQLiteDB.Data {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=C:\\Users\\Yasen\\Documents\\GitHub\\StoreData.sqlite; Version=3;Pooling=F" +
-            "alse;")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=..\\StoreData.sqlite; Version=3;Pooling=False;")]
         public string SQLITE_URI {
             get {
                 return ((string)(this["SQLITE_URI"]));

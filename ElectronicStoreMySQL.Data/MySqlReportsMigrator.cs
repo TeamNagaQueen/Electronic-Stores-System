@@ -14,7 +14,7 @@
         {
             var mySqlContext = new ElectronicStoreMySQLFluentModel();
 
-            var reports = storeContext.Sales.ToList();
+            var reports = storeContext.Sales.OrderBy(s => s.Store.StoreName).ToList();
 
             for (int i = 1, len = reports.Count; i < len; i++)
             {
