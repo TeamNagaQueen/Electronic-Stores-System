@@ -13,34 +13,66 @@
     using PDFModule;
     using ElectronicStoreMySQL.Data;
 
-    class TestConsoleModule
+    public class TestConsoleModule
     {
         static void Main()
         {
-            //Problem #1 – Load Excel Reports from ZIP File
-            ElectronicStoresSystemDbContext dbContext = new ElectronicStoresSystemDbContext();
-            //XlsReader.ExtractZipReports();
-
-            //var expenses = XmlReader.GetXmlInfo();
+            ////Problem #1 – Load Excel Reports from ZIP File
+            //ElectronicStoresSystemDbContext dbContext = new ElectronicStoresSystemDbContext();
+            ////XlsReader.ExtractZipReports();
+            ////
+            //
+            //var sales = XlsReader.ReadAllExcells();
+            ////
+            ////// Use once if your MongoDB is empty else delete your Mongo DATABASE for the project so it will generate it new every time
+            //MongoStartData.FillSampleCategories();
+            //MongoStartData.FillSampleManufacturers();
+            //MongoStartData.FillSampleProducts();
+            ////
+            ////// Use once if your SQL Database is empty else delete your SQL DATABASE for the project so it will generate
+            ////// the data for the tables
+            //MongoMigrator.MigrateMongoToSql(dbContext);
             //using (dbContext)
             //{
-            //    //MongoStartData.FillSampleCategories();
-            //    //MongoStartData.FillSampleManufacturers();
-            //    //MongoStartData.FillSampleProducts();
-            //    MongoMigrator.MigrateMongoToSql(dbContext);
-            //    var sales = XlsReader.ReadAllExcells();
             //    XlsMigrator.MigrateXslToSQL(dbContext, sales);
+            //    var expenses = XmlReader.GetXmlInfo();
             //    XmlMigrator.MigrateXmlToSQL(dbContext, expenses);
             //}
+            //
+            ////var sqliteContext = new ElectronicStoreSQLiteContext();
+            //
+            ////var report = new AdditionalData
+            ////{
+            ////    InfoId = 1,
+            ////    InfoDescription = "Report",
+            ////};
+            ////
+            ////SQLiteManager.SaveData(report);
+            //
+            ////var rep = SQLiteManager.LoadAdditionalDataInfo();
+            //
+            ////foreach (var item in rep)
+            ////{
+            ////    Console.WriteLine(item.InfoId);
+            ////}
+            ////
+            ////Console.WriteLine(sqliteContext.AdditionalDatas.First().InfoDescription);
+            //
+            //
+            //MySqlInitializer.UpdateDatabase();
+            //dbContext = new ElectronicStoresSystemDbContext();
+            //using (dbContext)
+            //{
+            //    MySqlReportsMigrator.MigrateReports(dbContext);
+            //}
+            //
+            //Console.WriteLine(MySQLDataProvider.LoadReports().Count());
 
-            // Use once if your MongoDB is empty else delete your Mongo DATABASE for the project so it will generate it new every time
-
-            // Use once if your SQL Database is empty else delete your SQL DATABASE for the project so it will generate
-            // the data for the tables
-            //XmlReader.AddExpensesToSql(expenses);
+            Console.Write("Database update complete! Press any key to close.");
             var reports = MySQLDataProvider.LoadReports();
 
-            PDFCreator.CreatePDF(reports);
+            //PDFCreator.CreatePDF(reports);
+            XmlModule.XmlCreator.CreateXml(reports);
         }
     }
 }

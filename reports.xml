@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Reports>
+  <Product>
+    <Report-id>1</Report-id>
+    <Product-Name>Boiler R3500</Product-Name>
+    <Store-Name>Bourgas Technomarket</Store-Name>
+    <Quantity>16</Quantity>
+    <Price>7.0000000000</Price>
+    <Sum>112.0000000000</Sum>
+  </Product>
+  <Product>
+    <Report-id>2</Report-id>
+    <Product-Name>Boiler M1000</Product-Name>
+    <Store-Name>Plovdiv Supermarket Billa</Store-Name>
+    <Quantity>25</Quantity>
+    <Price>1.2500000000</Price>
+    <Sum>31.2500000000</Sum>
+  </Product>
+  <Product>
+    <Report-id>3</Report-id>
+    <Product-Name>Toaster M1000</Product-Name>
+    <Store-Name>Plovdiv Supermarket Billa</Store-Name>
+    <Quantity>40</Quantity>
+    <Price>1.5600000000</Price>
+    <Sum>62.4000000000</Sum>
+  </Product>
+  <Product>
+    <Report-id>4</Report-id>
+    <Product-Name>Boiler E320</Product-Name>
+    <Store-Name>Plovdiv Supermarket Billa</Store-Name>
+    <Quantity>15</Quantity>
+    <Price>3.8000000000</Price>
+    <Sum>57.0000000000</Sum>
+  </Product>
+  <Product>
+    <Report-id>5</Report-id>
+    <Product-Name>Boiler E320</Product-Name>
+    <Store-Name>Sofia Supermarket Metro</Store-Name>
+    <Quantity>8</Quantity>
+    <Price>2.7000000000</Price>
+    <Sum>21.6000000000</Sum>
+  </Product>
+  <Product>
+    <Report-id>6</Report-id>
+    <Product-Name>Boiler R3500</Product-Name>
+    <Store-Name>Sofia Supermarket Metro</Store-Name>
+    <Quantity>7</Quantity>
+    <Price>10.5000000000</Price>
+    <Sum>73.5000000000</Sum>
+  </Product>
+  <Product>
+    <Report-id>7</Report-id>
+    <Product-Name>Toaster M1000</Product-Name>
+    <Store-Name>Bourgas Technomarket</Store-Name>
+    <Quantity>23</Quantity>
+    <Price>3.0000000000</Price>
+    <Sum>69.0000000000</Sum>
+  </Product>
+  <Product>
+    <Report-id>8</Report-id>
+    <Product-Name>Boiler R3500</Product-Name>
+    <Store-Name>Bourgas Technomarket</Store-Name>
+    <Quantity>16</Quantity>
+    <Price>10.2000000000</Price>
+    <Sum>163.2000000000</Sum>
+  </Product>
+  <Product>
+    <Report-id>9</Report-id>
+    <Product-Name>Toaster M1000</Product-Name>
+    <Store-Name>Plovdiv Supermarket Billa</Store-Name>
+    <Quantity>89</Quantity>
+    <Price>0.9300000000</Price>
+    <Sum>82.7700000000</Sum>
+  </Product>
+  <Product>
+    <Report-id>10</Report-id>
+    <Product-Name>Boiler E320</Product-Name>
+    <Store-Name>Plovdiv Supermarket Billa</Store-Name>
+    <Quantity>15</Quantity>
+    <Price>3.5000000000</Price>
+    <Sum>52.5000000000</Sum>
+  </Product>
+  <Product>
+    <Report-id>11</Report-id>
+    <Product-Name>Boiler M1000</Product-Name>
+    <Store-Name>Plovdiv Supermarket Billa</Store-Name>
+    <Quantity>19</Quantity>
+    <Price>1.5000000000</Price>
+    <Sum>28.5000000000</Sum>
+  </Product>
+  <Product>
+    <Report-id>12</Report-id>
+    <Product-Name>Boiler R3500</Product-Name>
+    <Store-Name>Sofia Supermarket Metro</Store-Name>
+    <Quantity>13</Quantity>
+    <Price>7.8000000000</Price>
+    <Sum>101.4000000000</Sum>
+  </Product>
+  <Product>
+    <Report-id>13</Report-id>
+    <Product-Name>Boiler M1000</Product-Name>
+    <Store-Name>Sofia Supermarket Metro</Store-Name>
+    <Quantity>61</Quantity>
+    <Price>1.1000000000</Price>
+    <Sum>67.1000000000</Sum>
+  </Product>
+  <Product>
+    <Report-id>14</Report-id>
+    <Product-Name>Toaster M1000</Product-Name>
+    <Store-Name>Sofia Supermarket Metro</Store-Name>
+    <Quantity>250</Quantity>
+    <Price>0.9800000000</Price>
+    <Sum>245.0000000000</Sum>
+  </Product>
+  <Product>
+    <Report-id>15</Report-id>
+    <Product-Name>Toaster M1000</Product-Name>
+    <Store-Name>Bourgas Technomarket</Store-Name>
+    <Quantity>12</Quantity>
+    <Price>2.0000000000</Price>
+    <Sum>24.0000000000</Sum>
+  </Product>
+  <Product>
+    <Report-id>16</Report-id>
+    <Product-Name>Boiler R3500</Product-Name>
+    <Store-Name>Bourgas Technomarket</Store-Name>
+    <Quantity>21</Quantity>
+    <Price>8.7000000000</Price>
+    <Sum>182.7000000000</Sum>
+  </Product>
+  <Product>
+    <Report-id>17</Report-id>
+    <Product-Name>Boiler M1000</Product-Name>
+    <Store-Name>Plovdiv Supermarket Billa</Store-Name>
+    <Quantity>23</Quantity>
+    <Price>1.6000000000</Price>
+    <Sum>36.8000000000</Sum>
+  </Product>
+  <Product>
+    <Report-id>18</Report-id>
+    <Product-Name>Toaster M1000</Product-Name>
+    <Store-Name>Plovdiv Supermarket Billa</Store-Name>
+    <Quantity>87</Quantity>
+    <Price>0.9500000000</Price>
+    <Sum>82.6500000000</Sum>
+  </Product>
+  <Product>
+    <Report-id>19</Report-id>
+    <Product-Name>Boiler E320</Product-Name>
+    <Store-Name>Plovdiv Supermarket Billa</Store-Name>
+    <Quantity>10</Quantity>
+    <Price>3.9000000000</Price>
+    <Sum>39.0000000000</Sum>
+  </Product>
+  <Product>
+    <Report-id>20</Report-id>
+    <Product-Name>Boiler E320</Product-Name>
+    <Store-Name>Sofia Supermarket Billa</Store-Name>
+    <Quantity>6</Quantity>
+    <Price>3.8500000000</Price>
+    <Sum>23.1000000000</Sum>
+  </Product>
+  <Product>
+    <Report-id>21</Report-id>
+    <Product-Name>Boiler R3500</Product-Name>
+    <Store-Name>Sofia Supermarket Billa</Store-Name>
+    <Quantity>4</Quantity>
+    <Price>8.7000000000</Price>
+    <Sum>34.8000000000</Sum>
+  </Product>
+  <Product>
+    <Report-id>22</Report-id>
+    <Product-Name>Boiler M1000</Product-Name>
+    <Store-Name>Sofia Supermarket Metro</Store-Name>
+    <Quantity>76</Quantity>
+    <Price>1.1000000000</Price>
+    <Sum>83.6000000000</Sum>
+  </Product>
+  <Product>
+    <Report-id>23</Report-id>
+    <Product-Name>Toaster M1000</Product-Name>
+    <Store-Name>Sofia Supermarket Metro</Store-Name>
+    <Quantity>123</Quantity>
+    <Price>0.9500000000</Price>
+    <Sum>116.8500000000</Sum>
+  </Product>
+  <Product>
+    <Report-id>24</Report-id>
+    <Product-Name>Boiler R3500</Product-Name>
+    <Store-Name>Sofia Supermarket Metro</Store-Name>
+    <Quantity>76</Quantity>
+    <Price>8.5000000000</Price>
+    <Sum>646.0000000000</Sum>
+  </Product>
+</Reports>
