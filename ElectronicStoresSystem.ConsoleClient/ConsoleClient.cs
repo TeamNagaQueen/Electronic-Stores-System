@@ -15,86 +15,49 @@
     using XlsModule;
     using XmlModule;
     using PDFModule;
+    using JSONModule;
 
     class ConsoleClient
     {
         static void Main()
         {
             //Problem #1 – Load Excel Reports from ZIP File
+
+            // Use once if your MongoDB is empty else delete your Mongo DATABASE for the project so it will generate it new every time
+            MongoStartData.FillSampleCategories();
+            MongoStartData.FillSampleManufacturers();
+            MongoStartData.FillSampleProducts();
+
+            // Use once if your SQL Database is empty else delete your SQL DATABASE for the project so it will generate
+            // the data for the tables
             ElectronicStoresSystemDbContext dbContext = new ElectronicStoresSystemDbContext();
-            //XlsReader.ExtractZipReports();
-            //
 
-            //var sales = XlsReader.ReadAllExcells();
-            //
-            //// Use once if your MongoDB is empty else delete your Mongo DATABASE for the project so it will generate it new every time
-            //MongoStartData.FillSampleCategories();
-            //MongoStartData.FillSampleManufacturers();
-            //MongoStartData.FillSampleProducts();
-            //
-            //// Use once if your SQL Database is empty else delete your SQL DATABASE for the project so it will generate
-            //// the data for the tables
-            //MongoMigrator.MigrateMongoToSql(dbContext);
-            //using (dbContext)
-            //{
-            //    XlsMigrator.MigrateXslToSQL(dbContext, sales);
-            //    var expenses = XmlReader.GetXmlInfo();
-            //    XmlMigrator.MigrateXmlToSQL(dbContext, expenses);
-            //}
+            MongoMigrator.MigrateMongoToSql(dbContext);
 
-            //var sqliteContext = new ElectronicStoreSQLiteContext();
+            using (dbContext)
+            {
+                XlsReader.ExtractZipReports();
 
-            //var report = new AdditionalData
-            //{
-            //    InfoId = 1,
-            //    InfoDescription = "Report",
-            //};
-            //
-            //SQLiteManager.SaveData(report);
+                var sales = XlsReader.ReadAllExcells();
+                XlsMigrator.MigrateXslToSQL(dbContext, sales);
 
-            //var rep = SQLiteManager.LoadAdditionalDataInfo();
+                var expenses = XmlReader.GetXmlInfo();
+                XmlMigrator.MigrateXmlToSQL(dbContext, expenses);
 
-            //foreach (var item in rep)
-            //{
-            //    Console.WriteLine(item.InfoId);
-            //}
-            //
-            //Console.WriteLine(sqliteContext.AdditionalDatas.First().InfoDescription);
+                MySqlInitializer.UpdateDatabase();
+                MySqlReportsMigrator.MigrateReports(dbContext);
 
+                SQLiteManager.AddSqLiteData(dbContext);
+            }
 
-            //MySqlInitializer.UpdateDatabase();
-            //dbContext = new ElectronicStoresSystemDbContext();
-            //using (dbContext)
-            //{
-            //    MySqlReportsMigrator.MigrateReports(dbContext);
-            //}
+            var reports = MySQLDataProvider.LoadReports();
 
-            //Console.WriteLine(MySQLDataProvider.LoadReports().Count());
-
-            //Console.Write("Database update complete! Press any key to close.");
-            //var reports = MySQLDataProvider.LoadReports();
-
-            //PDFCreator.CreatePDF(reports);
-
-            //var addInfo = new AdditionalData
-            //{
-            //    InfoDescription = "KJH",
-            //    Mark = 15,
-            //};
-
-            //var sqliteCtx = new ElectronicStoreSQLiteContext();
-
-            //sqliteCtx.AdditionalDatas.Add(addInfo);
-            //sqliteCtx.SaveChanges();
-
-            //foreach (var item in sqliteCtx.AdditionalDatas.ToList())
-            //{
-            //    Console.WriteLine("{0} -> {1}", item.InfoDescription, item.Mark);
-            //}
-
-            SQLiteManager.AddSqLiteData(dbContext);
-
+            PDFCreator.CreatePDF(reports);
+            XmlCreator.CreateXml(reports);
+            JSONCreator.CreateJSON(reports);
             XlsCreator.GenerateExcelResult();
+
+            Console.Write("Database update complete! Press any key to close.");
         }
     }
 }

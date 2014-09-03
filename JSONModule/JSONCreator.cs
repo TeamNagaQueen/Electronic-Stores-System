@@ -14,6 +14,7 @@
     {
         public static void CreateJSON(List<Report> reports)
         {
+            Console.WriteLine("Generating JSON reports....");
             var reportsString = new List<string>();
 
             foreach (var report in reports)
@@ -22,6 +23,7 @@
                 reportsString.Add(reportStr);
                 File.WriteAllText(@"..\..\..\JSONReports\" + report.ReportId + ".json", reportStr);
             }
+            Console.WriteLine("JSON reports generated!");
         }
     }
 }

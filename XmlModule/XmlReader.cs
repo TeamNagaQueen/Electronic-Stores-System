@@ -13,6 +13,7 @@
     {
         public static IList<Expense> GetXmlInfo()
         {
+            Console.WriteLine("Parsing XML expenses...");
             XmlDocument xml = new XmlDocument();
             xml.Load(@"..\..\..\Manufacturers-Expenses.xml");
 
@@ -39,23 +40,8 @@
                 }
             }
 
+            Console.WriteLine("XML expenses parsed SUCCESSFULLY!");
             return expenses;
-        }
-
-        public static void AddExpensesToSql(ICollection<Expense> expenses)
-        {
-            ElectronicStoresSystemDbContext dbContex = new ElectronicStoresSystemDbContext();
-
-            using (dbContex)
-            {
-                foreach (Expense expense in expenses)
-                {
-                    dbContex.Expenses.Add(expense);
-                }
-
-                dbContex.SaveChanges();
-            }
-
         }
     }
 }

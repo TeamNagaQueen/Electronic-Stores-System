@@ -14,6 +14,7 @@
     {
         public static void CreateXml(List<Report> reports)
         {
+            Console.WriteLine("Generating XML report....");
             XmlTextWriter writer = new XmlTextWriter(@"..\..\..\reports.xml", Encoding.UTF8);
             writer.WriteStartDocument(true);
             writer.Formatting = Formatting.Indented;
@@ -26,7 +27,7 @@
             writer.WriteEndElement();
             writer.WriteEndDocument();
             writer.Close();
-            Console.WriteLine("XML File created ! ");
+            Console.WriteLine("XML File report created ! ");
         }
 
         private static void createNode(Report report, XmlTextWriter writer)

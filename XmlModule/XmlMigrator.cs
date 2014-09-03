@@ -23,6 +23,7 @@
             }
 
             dbContex.SaveChanges();
+            Console.WriteLine("XML expenses to SQL migrated successfully");
         }
     }
 }

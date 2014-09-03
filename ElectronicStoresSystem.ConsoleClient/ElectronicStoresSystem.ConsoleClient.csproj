@@ -105,6 +105,10 @@
       <Project>{089c59d0-265f-4c5d-900c-0ac369f9c565}</Project>
       <Name>ElectronicStoresSystem.Models</Name>
     </ProjectReference>
+    <ProjectReference Include="..\JSONModule\JSONModule.csproj">
+      <Project>{0c18f93c-b49b-44a0-a6eb-5ae0b9623953}</Project>
+      <Name>JSONModule</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MongoDb.Data\MongoDb.Data.csproj">
       <Project>{98d9524f-3e13-4e5b-bd44-8955f1930900}</Project>
       <Name>MongoDb.Data</Name>

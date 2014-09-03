@@ -16,6 +16,7 @@
     {
         public static void GenerateExcelResult()
         {
+            Console.WriteLine("Generating Excel report.....");
             var fileName = "Final Data" + DateTime.Now.ToString("yyyy-MM-dd-hh-mm-ss") + ".xlsx";
 
             var file = new FileInfo(fileName);
@@ -31,7 +32,7 @@
                 headerRange.Style.Font.Bold = true;
                 headerRange.Style.Font.Size = 16;
                 headerRange.Style.HorizontalAlignment = ExcelHorizontalAlignment.CenterContinuous;
-                worksheet.Cells[2, 1].Value = "Company name";
+                worksheet.Cells[2, 1].Value = "Product name";
                 worksheet.Cells[2, 2].Value = "Store name";
                 worksheet.Cells[2, 3].Value = "Quantity";
                 worksheet.Cells[2, 4].Value = "Unit Price";
@@ -98,6 +99,7 @@
                 worksheet.Column(7).AutoFit();
 
                 package.Save();
+                Console.WriteLine("Generating Excel report DONE!");
             }
         }
     }

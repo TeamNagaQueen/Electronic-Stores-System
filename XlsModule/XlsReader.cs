@@ -29,6 +29,7 @@
 
         public static List<List<Sale>> ReadAllExcells()
         {
+            Console.WriteLine("Parsing Sales from excel files....");
             List<List<Sale>> data = new List<List<Sale>>();
             string firstConStringPart = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=";
             string secondConStringPart = @";Extended Properties='Excel 12.0 Xml;HDR=YES'";
@@ -52,6 +53,8 @@
             {
                 data.Add(ReadCurrentExcel(firstConStringPart + path + secondConStringPart));
             }
+
+            Console.WriteLine("Parsing of Sales successful!");
             return data;
         }
 
@@ -87,8 +90,6 @@
                         var count = table.Columns.Count;
                         if (row[col].ToString() != "")
                         {
-                            Console.Write(row[col].ToString() + " ");
-                            Console.WriteLine();
                             decimal number = 0;
                             bool success = decimal.TryParse(row[col].ToString(), out number);
                             if (success)
