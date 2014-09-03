@@ -12,6 +12,7 @@
     using System.Collections.Generic;
     using PDFModule;
     using ElectronicStoreMySQL.Data;
+    using JSONModule;
 
     public class TestConsoleModule
     {
@@ -68,11 +69,12 @@
             //
             //Console.WriteLine(MySQLDataProvider.LoadReports().Count());
 
-            Console.Write("Database update complete! Press any key to close.");
+            //Console.Write("Database update complete! Press any key to close.");
             var reports = MySQLDataProvider.LoadReports();
 
             //PDFCreator.CreatePDF(reports);
-            XmlModule.XmlCreator.CreateXml(reports);
+            //XmlCreator.CreateXml(reports);
+            JSONCreator.CreateJSON(reports);
         }
     }
 }

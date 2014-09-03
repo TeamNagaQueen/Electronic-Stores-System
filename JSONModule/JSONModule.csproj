@@ -4,16 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E9C0A301-84CB-41BE-83D6-5707B5F0268F}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{0C18F93C-B49B-44A0-A6EB-5AE0B9623953}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Test.ConsoleModule</RootNamespace>
-    <AssemblyName>Test.ConsoleModule</AssemblyName>
+    <RootNamespace>JSONModule</RootNamespace>
+    <AssemblyName>JSONModule</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -37,9 +35,6 @@
     </Reference>
     <Reference Include="EntityFramework.SqlServer">
       <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
-    </Reference>
-    <Reference Include="Ionic.Zip">
-      <HintPath>..\packages\DotNetZip.1.9.3\lib\net20\Ionic.Zip.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -69,7 +64,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="TestConsoleModule.cs" />
+    <Compile Include="JSONCreator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -82,40 +77,12 @@
       <Name>ElectronicStoreMySQL.Data</Name>
     </ProjectReference>
     <ProjectReference Include="..\ElectronicStoreMySQL.Model\ElectronicStoreMySQL.Model.csproj">
-      <Project>{6F9C2621-695C-4BDE-881B-157DCAA75C07}</Project>
+      <Project>{6f9c2621-695c-4bde-881b-157dcaa75c07}</Project>
       <Name>ElectronicStoreMySQL.Model</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ElectronicStoresSystem.ConsoleClient\ElectronicStoresSystem.ConsoleClient.csproj">
-      <Project>{664a3d7d-904f-44f6-8046-8c2bfa413b01}</Project>
-      <Name>ElectronicStoresSystem.ConsoleClient</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ElectronicStoresSystem.Data\ElectronicStoresSystem.Data.csproj">
-      <Project>{cb7bf651-6dbb-4280-a989-435f784056fe}</Project>
-      <Name>ElectronicStoresSystem.Data</Name>
     </ProjectReference>
     <ProjectReference Include="..\ElectronicStoresSystem.Models\ElectronicStoresSystem.Models.csproj">
       <Project>{089c59d0-265f-4c5d-900c-0ac369f9c565}</Project>
       <Name>ElectronicStoresSystem.Models</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\JSONModule\JSONModule.csproj">
-      <Project>{0c18f93c-b49b-44a0-a6eb-5ae0b9623953}</Project>
-      <Name>JSONModule</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\MongoDb.Data\MongoDb.Data.csproj">
-      <Project>{98d9524f-3e13-4e5b-bd44-8955f1930900}</Project>
-      <Name>MongoDb.Data</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\PDFModule\PDFModule.csproj">
-      <Project>{c5d796a3-0e3a-43a9-b3cd-02ed63d8fca5}</Project>
-      <Name>PDFModule</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\XlsModule\XlsModule.csproj">
-      <Project>{2ebe385d-a6b3-43d1-aa40-b204e3b06abc}</Project>
-      <Name>XlsModule</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\XmlModule\XmlModule.csproj">
-      <Project>{6b4a5db1-7336-49ae-bc5b-5186c7519ec2}</Project>
-      <Name>XmlModule</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
