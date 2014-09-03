@@ -63,6 +63,12 @@
     </None>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ElectronicStoreSQLiteDB.Model\ElectronicStoreSQLiteDB.Model.csproj">
+      <Project>{e736b85d-78a9-47c4-904a-9c8990cd01b1}</Project>
+      <Name>ElectronicStoreSQLiteDB.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Condition="Exists('$(MSBuildExtensionsPath)\OpenAccess.targets')" Project="$(MSBuildExtensionsPath)\OpenAccess.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

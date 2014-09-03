@@ -90,6 +90,14 @@
       <Project>{e736b85d-78a9-47c4-904a-9c8990cd01b1}</Project>
       <Name>ElectronicStoreSQLiteDB.Model</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ElectronicStoresSystem.Data\ElectronicStoresSystem.Data.csproj">
+      <Project>{cb7bf651-6dbb-4280-a989-435f784056fe}</Project>
+      <Name>ElectronicStoresSystem.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ElectronicStoresSystem.Models\ElectronicStoresSystem.Models.csproj">
+      <Project>{089c59d0-265f-4c5d-900c-0ac369f9c565}</Project>
+      <Name>ElectronicStoresSystem.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

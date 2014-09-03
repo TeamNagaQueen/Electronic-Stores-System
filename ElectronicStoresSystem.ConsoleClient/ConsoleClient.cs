@@ -62,19 +62,19 @@
             //Console.WriteLine(sqliteContext.AdditionalDatas.First().InfoDescription);
 
 
-            MySqlInitializer.UpdateDatabase();
-            dbContext = new ElectronicStoresSystemDbContext();
-            using (dbContext)
-            {
-                MySqlReportsMigrator.MigrateReports(dbContext);
-            }
+            //MySqlInitializer.UpdateDatabase();
+            //dbContext = new ElectronicStoresSystemDbContext();
+            //using (dbContext)
+            //{
+            //    MySqlReportsMigrator.MigrateReports(dbContext);
+            //}
 
-            Console.WriteLine(MySQLDataProvider.LoadReports().Count());
+            //Console.WriteLine(MySQLDataProvider.LoadReports().Count());
 
-            Console.Write("Database update complete! Press any key to close.");
-            var reports = MySQLDataProvider.LoadReports();
+            //Console.Write("Database update complete! Press any key to close.");
+            //var reports = MySQLDataProvider.LoadReports();
 
-            PDFCreator.CreatePDF(reports);
+            //PDFCreator.CreatePDF(reports);
 
             //var addInfo = new AdditionalData
             //{
@@ -92,6 +92,9 @@
             //    Console.WriteLine("{0} -> {1}", item.InfoDescription, item.Mark);
             //}
 
+            SQLiteManager.AddSqLiteData(dbContext);
+
+            XlsCreator.GenerateExcelResult();
         }
     }
 }
